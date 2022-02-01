@@ -1,22 +1,18 @@
-NAME	= project.out
+NAME	= project.a
 ODIR	= ./bin
 SDIR	= ./src
 SRCS	= $(shell find $(SDIR) -name '*.c')
 OBJS	= $(patsubst $(SDIR)/%.c, $(ODIR)/%.o, $(SRCS))
 DEPS	= $(addsuffix .d, $(basename $(OBJS)))
-CFLAGS	= -Wall -Wextra -g $(AFL)
-LDFLAGS	= -Ldisplayer/ -lproject
+CFLAGS	= -Wall -Wextra -Werror -g $(AFL)
 CC	= gcc
 RM	= rm -rf
 
 .PHONY: all
-all: MK $(NAME)
+all: $(NAME)
 
-MK:
-	$(MAKE) -C displayer/
-
-$(NAME): $(OBJS) 
-	$(CC) $(CFLAGS) -o $@ $^ displayer/project.a
+$(NAME): $(OBJS)
+	ar rcs $@ $?
 
 $(ODIR)/%.o: $(SDIR)/%.c
 	mkdir -p $(dir $@)
