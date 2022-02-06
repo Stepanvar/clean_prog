@@ -1,4 +1,4 @@
-FROM gma:latest
+FROM stdc:latest
 COPY . /app
 WORKDIR /app
-CMD ["make"]
+CMD make re && valgrind ./ai.out

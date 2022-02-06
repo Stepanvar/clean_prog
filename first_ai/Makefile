@@ -1,11 +1,11 @@
 SDIR	= ./src
 ODIR	= ./bin
-SRCS	= ./src/ai.c
+SRCS	= ./src/my_ai.c
 OBJS	= $(patsubst $(SDIR)/%.c, $(ODIR)/%.o, $(SRCS))
 DEPS	= $(addsuffix .d, $(basename $(OBJS)))
 CFLAGS	= -Wall -Wextra -Werror -g
 NAME	= ai.out
-CC		= gcc
+CC		= cc
 .Phony: all
 all: $(NAME)
 $(NAME): $(OBJS)
