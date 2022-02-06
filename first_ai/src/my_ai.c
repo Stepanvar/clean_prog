@@ -30,17 +30,15 @@ double	ft_ai(double arr[3])
 
 void	ft_train(double set[4][3], double expect[4])
 {
-	double res = 0;
-	int	i = 0;
-	int	j = 0;
-	int	l = 0;
+	double res;
+	int	i, j, l;
 
+	i = 0;
 	while (i < 50)
 	{
 		l = 0;
 		while (l < 4)
 		{
-			res = 0;
 			j = 0;
 			res = ft_a(ft_ai(set[l]));
 			while (j < _weight)
