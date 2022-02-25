@@ -1,9 +1,11 @@
-# new_prog
+# new\_prog
 I solemnly swear that I will not scatter garbage in this repository
-#bash
+#sh
 It is a directory with next bash files:
-1)terminal_autoconf.sh
+1)terminal\_autoconf.sh
 	auto configure terminal
+2)create\_proj\_struct.sh
+	creat structure for c project and/or renew Makefile
 #c
 It is a directory with next c projects:
 1) beginend
