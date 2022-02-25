@@ -1,4 +1,4 @@
-# new\_prog
+# clean\_prog
 I solemnly swear that I will not scatter garbage in this repository
 #sh
 It is a directory with next bash files:
