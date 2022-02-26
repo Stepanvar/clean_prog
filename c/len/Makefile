@@ -1,4 +1,4 @@
-BASENAME	= libft
+BASENAME	= len
 ODIR	= ./bin
 SDIR	= ./src
 DDIR	= ./deps
@@ -23,7 +23,7 @@ endif
 all: MK $(NAME) 
 
 MK: $(LIBS)
-	if [ -z $(LIBS) ]; then\
+	@if [ -z $(LIBS) ]; then\
 		echo "no libs found"; \
 	else\
 		$(MAKE) -C $(dir $<);\
@@ -31,7 +31,7 @@ MK: $(LIBS)
 
 
 $(NAME): $(OBJS) $(LIBS)
-	if [ -z $(MAIN) ]; then \
+	@if [ -z $(MAIN) ]; then \
 		ar rcs $(NAME) $?; \
 	else\
 		$(CC) $(CFLAGS) -o $@ $^;\

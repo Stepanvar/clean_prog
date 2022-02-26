@@ -12,8 +12,7 @@ LIBS	= $(shell find $(LDIR) -maxdepth 2 -name "*.a")
 MAIN	= $(shell find $(SDIR) -name 'main.c')
 CC	= gcc
 RM	= rm -rf
-
-ifeq (MAIN,)
+ifneq (MAIN,)
 NAME	=$(addsuffix .a, $(BASENAME))
 else
 NAME	=$(addsuffix .out, $(BASENAME))
@@ -23,7 +22,7 @@ endif
 all: MK $(NAME) 
 
 MK: $(LIBS)
-	if [ -z $(LIBS) ]; then\
+	@if [ -z $(LIBS) ]; then\
 		echo "no libs found"; \
 	else\
 		$(MAKE) -C $(dir $<);\
@@ -31,7 +30,7 @@ MK: $(LIBS)
 
 
 $(NAME): $(OBJS) $(LIBS)
-	if [ -z $(MAIN) ]; then \
+	@if [ -z $(MAIN) ]; then \
 		ar rcs $(NAME) $?; \
 	else\
 		$(CC) $(CFLAGS) -o $@ $^;\
