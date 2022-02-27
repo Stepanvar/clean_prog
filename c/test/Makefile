@@ -1,4 +1,4 @@
-BASENAME	= libft
+BASENAME	= test
 ODIR	= ./bin
 SDIR	= ./src
 DDIR	= ./deps

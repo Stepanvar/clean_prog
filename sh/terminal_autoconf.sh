@@ -15,7 +15,7 @@ fi
 ls $wd/usr/bin > pack.txt
 rm var.txt t.txt pack.txt
 #add terminal configure commands
-echo 'alias src="source ~/.*shrc"
+echo 'alias src="source ~/.zshrc"
 alias ll="ls -Fla"
 alias upgd="pkg update && pkg upgrade"
 0p(){
