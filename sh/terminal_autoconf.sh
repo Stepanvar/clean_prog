@@ -19,7 +19,6 @@ echo 'alias src="source ~/.zshrc"
 alias ll="ls -Fla"
 alias upgd="pkg update && pkg upgrade"
 0p(){
-	git add .
 	git commit -m "$1"
 	git push origin $(git symbolic-ref HEAD --short)
 }' >> ~/.zshrc
