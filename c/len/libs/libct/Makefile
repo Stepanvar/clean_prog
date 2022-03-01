@@ -1,4 +1,4 @@
-BASENAME	= libft
+BASENAME	= libct
 ODIR	= ./bin
 SDIR	= ./src
 DDIR	= ./deps
@@ -22,17 +22,15 @@ else
 endif
 
 .PHONY: all
-all: $(DLIB) $(NAME) ZZ
+all: DL $(NAME) ZZ
 .PHONY: $(DLIB)
-$(DLIB): FORCE
+DL: $(LIBS)
 ifeq ($(LIBS),)
 	echo "no libs found"
 else
-	$(MAKE) -C $@
+	$(MAKE) -C $(dir $<)
 endif
 
-.PHONY: FORCE
-FORCE:
 
 $(NAME): $(OBJS) $(LIBS)
 ifeq ($(MAIN),)

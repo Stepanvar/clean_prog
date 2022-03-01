@@ -1,14 +1,17 @@
-#include "../libs/libft/src/libft.h"
 #include "stdio.h"
-
-int main(void)
+#include "libft.h"
+#include "ft_atoi.h"
+;
+int	main(void)
 {
-	char	*str;
 	int	i;
+	char	*str;
 
+	str = "Hello my boy";
 	i = 0;
-	str = "Hello my friend";
 	i = ft_strlen(str);
-	printf("%d", i);
+	printf("%d\n", i);
+	i = ft_atoi(str);
+	printf("%d\n", i);
 	return (0);
 }
