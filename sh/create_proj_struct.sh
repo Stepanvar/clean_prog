@@ -9,7 +9,7 @@ else
 		pwd='pwd' && zsh ~/clean_prog/sh/create_proj_struct.sh $(pwd)&& make re
 	else
 		mkdir -p $1
-		mkdir -p $1/src $1/bin $1/deps $1/libs
+		mkdir -p $1/bin $1/deps $1/libs
 		if [ -z $2 ]
 		then
 			echo "no libs specified"
