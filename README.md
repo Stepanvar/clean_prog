@@ -14,6 +14,9 @@ It is a directory with next bash files:
 
 	creat structure for c project and/or renew Makefile
 
+3)timer.sh
+	run 
+
 #c
 
 It is a directory with next c projects:
