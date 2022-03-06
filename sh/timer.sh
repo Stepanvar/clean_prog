@@ -1,10 +1,13 @@
 #!/bin/zsh
 #HELP
 Help(){
+	echo "NAME"
+	echo "	timer.sh - timer with modifiable cycle"
 	echo "SYNOPSIS:"
 	echo -e "	timer.sh [-d \e[3mduration\e[0m] [-h]"
-	echo "-d \e[3mduration\e[0m	the duration of the one timer cycle in sec (default 80)"
-	echo "-h	print this help"
+	echo "Descriprion"
+	echo "	-d \e[3mduration\e[0m	the duration of the one timer cycle in sec (default 80)"
+	echo "	-h	print this help"
 }
 
 #Set var
