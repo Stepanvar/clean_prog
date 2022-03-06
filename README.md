@@ -15,7 +15,7 @@ It is a directory with next bash files:
 	creat structure for c project and/or renew Makefile
 
 3)timer.sh
-	run 
+	run timer with any user duration 
 
 #c
 
