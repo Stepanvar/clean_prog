@@ -2,7 +2,7 @@
 #include "stdlib.h"
 #include "stdio.h"
 
-char	*ft_assign(char *sarr, char *unsarr)
+char	*ft_strcp(char *sarr, char *unsarr)
 {
 	int i = 0;
 
@@ -25,7 +25,7 @@ char	*ft_selectionsort(char *unsarr)
 
 	last_sort_num = 0;
 	sarr = (char *)malloc(sizeof(char) * 100);
-	sarr = ft_assign(sarr, unsarr);
+	sarr = ft_strcp(sarr, unsarr);
 	min = sarr[0];
 	i = 0;
 	while (sarr[len])
