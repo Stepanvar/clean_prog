@@ -18,11 +18,12 @@ char	*ft_selectionsort(char *unsarr)
 	char	min;
 	int	last_sort_num;
 	int	i;
-	int	len = 0;
+	int	len;
 	int	tmp;
 	char	*sarr;
 
 	last_sort_num = 0;
+	len = 0;
 	sarr = (char *)malloc(sizeof(char) * 100);
 	sarr = ft_strcp(sarr, unsarr);
 	min = sarr[0];
