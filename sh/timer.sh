@@ -13,7 +13,9 @@ Help(){
 #Set var
 c=0
 dur=80
-
+h=0
+m=0
+s=0
 #TIMER
 Timer(){
 while :
@@ -21,7 +23,10 @@ do
 	sleep $dur
 	c=$((c+1))
 	pass=$(($c * $dur))
-	termux-toast -b black -g bottom "Time passed $pass"
+	h=$(($pass / 3600))
+	m=$((($pass - $h * 3600) / 60))
+	s=$((($pass - $h * 3600) % 60))
+	termux-toast -b black -g bottom "Time passed: $h h $m m $s s"
 	termux-vibrate -f -d 500
 done
 }
