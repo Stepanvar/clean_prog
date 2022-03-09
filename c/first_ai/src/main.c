@@ -34,13 +34,17 @@ void	ft_train(double set[4][3], double expect[4])
 	int	i, j, l;
 
 	i = 0;
+	//repeat train 50 times
 	while (i < 50)
 	{
 		l = 0;
+		//handle each row in set
 		while (l < 4)
 		{
 			j = 0;
+			//get result of each row and normalize it
 			res = ft_a(ft_ai(set[l]));
+			//get new weights
 			while (j < _weight)
 			{
 				w[j] = w[j] + 0.1 * (expect[l] - res) * set[l][j];
