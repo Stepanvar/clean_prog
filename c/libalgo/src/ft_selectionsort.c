@@ -3,7 +3,7 @@
 
 char	*ft_strcp(char *sarr, char *unsarr)
 {
-	int ind = 0;
+	int i = 0;
 
 	while (unsarr[i])
 	{
