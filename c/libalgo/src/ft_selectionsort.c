@@ -24,10 +24,10 @@ char	*ft_selectionsort(char *unsarr)
 
 	last_sort_num = 0;
 	len = 0;
+	i = 0;
 	sarr = (char *)malloc(sizeof(char) * 100);
 	sarr = ft_strcp(sarr, unsarr);
 	min = sarr[0];
-	i = 0;
 	while (sarr[len])
 		len++;
 	while (last_sort_num < len)
