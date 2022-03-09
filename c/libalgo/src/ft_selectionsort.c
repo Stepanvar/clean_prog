@@ -1,6 +1,5 @@
 #include "sort.h"
 #include "stdlib.h"
-#include "stdio.h"
 
 char	*ft_strcp(char *sarr, char *unsarr)
 {
