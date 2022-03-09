@@ -56,7 +56,7 @@ int	main(void)
 {
 	double	mass[4][3] = {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}, {1, 0, 1}};
 	double	out[4] = {1, 0, 0, 1};
-	double	work[3] = {1, 0, 0};
+	double	work[3] = {0, 1, 1};
 	int		i = 0;
 	double	res = 0;
 	srand(time(NULL));

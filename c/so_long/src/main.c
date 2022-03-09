@@ -109,3 +109,4 @@ int	main(int argc, char *argv[])
 	mlx_hook(vars.win, 2, 1L << 0, key_hook, &vars);
 	mlx_loop(vars.mlx);
 }
+
