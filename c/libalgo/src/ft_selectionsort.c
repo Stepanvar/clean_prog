@@ -44,10 +44,11 @@ char	*ft_selectionsort(char *unsarr)
 			}
 			i++;
 		}
-		//change variable
+		//change values
 		sarr[tmp] = sarr[last_sort_num];
 		sarr[last_sort_num] = min;
 		last_sort_num++;
+		//set new min
 		min = sarr[last_sort_num];
 	}
 	return (sarr);
