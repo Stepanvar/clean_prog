@@ -8,7 +8,7 @@ Help(){
 	echo -e "	make_c_struct.sh [-h] [-d \e[3mdirectory\e[0m] [-l \e[3mlibrary\e[0m]"
 	echo -e "DESCRIPTION"
 	echo -e "	-d \e[3mdirectory\e[0m the directory you need to create or structurized"
-	echo -e "	-l \e[3mlibrary\e[0m path to tye library you need to add in your c project"
+	echo -e "	-l \e[3mlibrary\e[0m path to the library you need to add in your c project"
 	echo -e "	-h print this help"
 }
 dir=""
