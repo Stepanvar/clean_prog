@@ -8,16 +8,17 @@ int	main(void)
 	//theory: ptr will get set of the addresses which yoy can modify
 	//you can change a value of the variable via its adress
 	char	*str;
-	char	d = '@';
-	char	c = ',';
+	char	*d = "@";
+	char	*c = ",";
 	char	*str1;
 	char	arr[5];
 
-	str = &d;
+	str = "ghu";
+	str = d;
 	printf("%s\n", str);
-	*str = c;
+	str = c;
 	printf("%s\n", str);
-	printf("%c\n", d);
+	printf("d = %s\n", d);
 	printf("You can change the value implicitly when assign a new value to the pointer\n");
 	return (i);
 }
