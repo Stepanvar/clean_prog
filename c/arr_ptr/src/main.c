@@ -1,24 +1,19 @@
 #include "collection.h"
 #include "stdio.h"
+#include "stdlib.h"
 
 int	main(void)
 {
 	int	i = 0;
-	i = ft_arr_vs_ptr();
-	//theory: ptr will get set of the addresses which yoy can modify
+	//i = ft_arr_vs_ptr();
+	//theory: ptr will get set of the addresses which you can modify
 	//you can change a value of the variable via its adress
-	char	*str;
-	char	*d = "@";
-	char	*c = ",";
-	char	*str1;
-	char	arr[5];
+	char	*ptr1;
+	char	*ptr2;
+	char	*ptr3;
+	char	*ptr4;
 
-	str = "ghu";
-	str = d;
-	printf("%s\n", str);
-	str = c;
-	printf("%s\n", str);
-	printf("d = %s\n", d);
-	printf("You can change the value implicitly when assign a new value to the pointer\n");
+	ptr1 = (char *)malloc(10 * sizeof(char) + 1);
+
 	return (i);
 }
