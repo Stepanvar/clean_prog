@@ -26,6 +26,20 @@ static	void	ft_assign_p(char *ptr)
 	printf("\t%s\n", ptr);
 }
 
+static void	ft_init_p()
+{
+	printf("You can init pointer:\n");
+	char	*mptr;
+	printf("\tDynamically via malloc\n");
+	mptr = (char *)malloc(10 + sizeof(char) + 1);
+	printf("%s", mptr);
+	char	*lptr;
+	printf("\tWith a string literal(ro data)\n");
+	lptr = "Hello my hero";
+	printf("%s", lptr);
+	printf("\tGive ")
+}
+
 int	ft_arr_vs_ptr(void)
 {
 	//declare arr
@@ -49,6 +63,19 @@ int	ft_arr_vs_ptr(void)
 	printf("%s\n", ptr);
 	printf("ptr save an adress of value, so when the value is changed the pointer values is also changed\n");
 	char	i = 42;
+	char	*str;
+	char	*d = "@";
+	char	*c = ",68";
+	char	*str1;
+	char	arr[5];
+
+	str = "ghu";
+	str = d;
+	printf("%s\n", str);
+	*str = ',';//value is not assignable
+	printf("%s\n", str);
+	printf("d = %s\n", d);
+	printf("You can change the value implicitly when assign a new value to the pointer\n");
 	//ptr[2] = &i;
 	//int adress in arr and get it access
 	//ptr in main assign to arr adress in func
