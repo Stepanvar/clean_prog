@@ -15,5 +15,9 @@ int	main(void)
 
 	ptr1 = (char *)malloc(10 * sizeof(char) + 1);
 
+	char	*ptr;
+	char	arr[5];
+	ft_ptr_info(ptr);
+	ft_arr_info(arr);
 	return (i);
 }
