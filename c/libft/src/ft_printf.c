@@ -1,6 +1,7 @@
 #include "libft.h"
 #include "unistd.h"
 #include "stdarg.h"
+#include "stdlib.h"
 
 typedef	struct s_fl
 {
@@ -54,11 +55,49 @@ static int	fs(void	*v, t_fl f)
 	return (f.len);
 }
 
+static	int	ft_intlen(int	num)
+{
+	int	j;
+
+	j = 0;
+	while (num > 0)
+	{
+		num /= 10;
+		j++;
+	}
+	return (j);
+}
+
+static int	fd(void *v, t_fl f)
+{
+	int	num;
+	int	i;
+	char	*s;
+	char	c;
+	int	j;
+
+	num = *(int *)&v;
+	i = ft_intlen(num);
+	j = i;
+	s = (char *)malloc(j * sizeof(char) + 1);
+	s[j] = 0;
+	while (num > 0)
+	{
+		c = num % 10 + 48;
+		num /= 10;
+		s[--j] = c;
+	}
+	f = ft_putall(s, f, i);
+	free(s);
+	s = NULL;
+	return (f.len);
+}
+
 static int	ft_harg(va_list p, const char *s, t_fl f)
 {
 	//find specs via func
 	//send va_arg to certain function
-	int	(*fm[4])(void *, t_fl) = {&fs};
+	int	(*fm[4])(void *, t_fl) = {&fs, &fd};
 	f = ft_hspec(++s, f);
 	/*ft_itoa(f.wid);
 	write(1, "\n", 1);
@@ -66,6 +105,8 @@ static int	ft_harg(va_list p, const char *s, t_fl f)
 	write(1, "\n", 1);*/
 	if (f.func == 's')
 		f.len = (*fm[0])(va_arg(p, void *), f);
+	if (f.func == 'd')
+		f.len = (*fm[1])(va_arg(p, void *), f);
 	return (f.len);
 }
 
