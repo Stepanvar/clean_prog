@@ -4,6 +4,7 @@
 
 typedef	struct s_fl
 {
+	//struct
 	int	len;
 	int	pre;
 	int	wid;
@@ -12,6 +13,7 @@ typedef	struct s_fl
 
 static	t_fl	ft_hspec(const char *s, t_fl f)
 {
+	//get width and precision
 	int	i;
 
 	i = 0;
@@ -21,21 +23,34 @@ static	t_fl	ft_hspec(const char *s, t_fl f)
 	{
 		i++;
 		while ('0' <= s[i] && s[i] <= '9')
-			f.pre = f.pre * 10 + s[i++] - '9';
+			f.pre = f.pre * 10 + s[i++] - '0';
 	}
+	//get func character
 	f.func = s[i];
 	return (f);
 }
 
-int	fs(void	*v, t_fl f)
+static	t_fl	ft_putall(char *s, t_fl f, int len)
 {
+	//print with wid and pre
+	if (!f.pre || len < f.pre)
+		f.pre = len;
+	f.wid = f.wid - f.pre;
+	while (f.wid-- > 0)
+		f.len += write(1, " ", 1);
+	f.len += write(1, s, f.pre);
+	return (f);
+}
+
+static int	fs(void	*v, t_fl f)
+{
+	//write string with spec
 	char	*s;
 	int	i = 0;
-
 	s = (char *)v;
 	while (s[i])
 		i++;
-	f.len += write(1, s, i);
+	f = ft_putall(s, f, i);
 	return (f.len);
 }
 
