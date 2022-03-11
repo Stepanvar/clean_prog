@@ -93,11 +93,38 @@ static int	fd(void *v, t_fl f)
 	return (f.len);
 }
 
+
+
+static int	fx(void *v, t_fl f)
+{
+	char	*s;
+	unsigned int	i;
+	int	len;
+	char	*base = "0123456789abcdef";
+	char	c;
+	int	j;
+
+	i = *(unsigned int *)&v;
+	len = ft_intlen(i);
+	j = len;
+	s = (char *)malloc(len * sizeof(char));
+	while (i > 0)
+	{
+		c = base[i % 16];
+		i /= 16;
+		s[--j] = c;
+	}
+	f = ft_putall(s, f, len);
+	free(s);
+	s = NULL;
+	return (f.len);
+}
+
 static int	ft_harg(va_list p, const char *s, t_fl f)
 {
 	//find specs via func
 	//send va_arg to certain function
-	int	(*fm[4])(void *, t_fl) = {&fs, &fd};
+	int	(*fm[4])(void *, t_fl) = {&fs, &fd, &fx};
 	f = ft_hspec(++s, f);
 	/*ft_itoa(f.wid);
 	write(1, "\n", 1);
@@ -107,6 +134,8 @@ static int	ft_harg(va_list p, const char *s, t_fl f)
 		f.len = (*fm[0])(va_arg(p, void *), f);
 	if (f.func == 'd')
 		f.len = (*fm[1])(va_arg(p, void *), f);
+	if (f.func == 'x')
+		f.len = (*fm[2])(va_arg(p, void *), f);
 	return (f.len);
 }
 
