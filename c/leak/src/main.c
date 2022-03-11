@@ -7,7 +7,7 @@ int	main(void)
 	str = (char *)malloc(10 * sizeof(char));
 	str[0] = 'H';
 	str[1] = 'e';
-	str[2] = 'l';
+	str[2] = 'd';
 	str[3] = '!';
 	printf("%s\n", str);
 	free(str);

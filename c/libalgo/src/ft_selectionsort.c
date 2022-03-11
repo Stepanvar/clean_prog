@@ -3,12 +3,12 @@
 
 char	*ft_strcp(char *sarr, char *unsarr)
 {
-	int i = 0;
+	int j = 0;
 
-	while (unsarr[i])
+	while (unsarr[j])
 	{
-		sarr[i] = unsarr[i];
-		i++;
+		sarr[j] = unsarr[j];
+		j++;
 	}
 	return (sarr);
 }
