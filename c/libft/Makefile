@@ -8,41 +8,48 @@ OBJS	= $(patsubst $(SDIR)/%.c, $(ODIR)/%.o, $(SRCS))
 DEPS	= $(patsubst $(ODIR)/%.o, $(DDIR)/%.d, $(OBJS))
 ODEPS	= $(patsubst $(ODIR)/%.o, $(ODIR)/%.d, $(OBJS))
 CFLAGS	= -Wall -Wextra -g $(AFL)
-LIBS	= $(shell find $(LDIR) -maxdepth 2 -name "*.a")
+LIBS	= $(shell find $(LDIR) -maxdepth 3 -name "*.a")
+DLIB    = $(dir $(LIBS))
+INCS	= $(patsubst %, -I%src, $(dir $(LIBS)))
 MAIN	= $(shell find $(SDIR) -name 'main.c')
 CC	= gcc
 RM	= rm -rf
 
-ifeq (MAIN,)
-NAME	=$(addsuffix .a, $(BASENAME))
+ifeq ($(MAIN),)
+	NAME	=$(addsuffix .a, $(BASENAME))
 else
-NAME	=$(addsuffix .out, $(BASENAME))
+	NAME	=$(addsuffix .out, $(BASENAME))
 endif
 
 .PHONY: all
-all: MK $(NAME) 
+all: $(DLIB) $(NAME) ZZ
+.PHONY: $(DLIB)
+$(DLIB): FORCE
+ifeq ($(LIBS),)
+	echo "no libs found"
+else
+	$(MAKE) -C $@
+endif
 
-MK: $(LIBS)
-	if [ -z $(LIBS) ]; then\
-		echo "no libs found"; \
-	else\
-		$(MAKE) -C $(dir $<);\
-	fi
-
+.PHONY: FORCE
+FORCE:
 
 $(NAME): $(OBJS) $(LIBS)
-	if [ -z $(MAIN) ]; then \
-		ar rcs $(NAME) $?; \
-	else\
-		$(CC) $(CFLAGS) -o $@ $^;\
-	fi
+ifeq ($(MAIN),)
+	ar rcs $(NAME) $?
+else
+	$(CC) $(CFLAGS) -o $@ $^
+endif
 
 $(ODIR)/%.o: $(SDIR)/%.c
 	mkdir -p $(dir $@)
-	$(CC) $(CFLAGS) -c -o $@ $< -MMD
+	$(CC) $(CFLAGS) -c -o $@ $< $(INCS) -MMD
+.PHONY: ZZ
+ZZ:
 	mkdir -p $(DDIR)
+ifeq ($(wildcard $(DDIR)/*.d),)
 	mv $(ODEPS) $(DDIR)
-
+endif
 -include $(DEPS)
 .PHONY: clean
 clean:
