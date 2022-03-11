@@ -34,23 +34,32 @@ static	t_fl	ft_hspec(const char *s, t_fl f)
 static	t_fl	ft_putall(char *s, t_fl f, int len)
 {
 	//print with wid and pre
-	if (!f.pre || len < f.pre)
+	if (!f.pre || len < f.pre || f.func == 'x')
 		f.pre = len;
 	f.wid = f.wid - f.pre;
 	while (f.wid-- > 0)
-		f.len += write(1, " ", 1);
+		f.len += write(1, "0", 1);
 	f.len += write(1, s, f.pre);
 	return (f);
 }
 
+/*static int	ft_strlen(char *s)
+{
+	int	i;
+
+	i = 0;
+	while (s[i])
+		i++;
+	return (i);
+}
+*/
 static int	fs(void	*v, t_fl f)
 {
 	//write string with spec
 	char	*s;
 	int	i = 0;
 	s = (char *)v;
-	while (s[i])
-		i++;
+	i = ft_strlen(s);
 	f = ft_putall(s, f, i);
 	return (f.len);
 }
@@ -71,14 +80,12 @@ static	int	ft_intlen(int	num)
 static int	fd(void *v, t_fl f)
 {
 	int	num;
-	int	i;
 	char	*s;
 	char	c;
 	int	j;
 
 	num = *(int *)&v;
-	i = ft_intlen(num);
-	j = i;
+	j = ft_intlen(num);
 	s = (char *)malloc(j * sizeof(char) + 1);
 	s[j] = 0;
 	while (num > 0)
@@ -87,34 +94,32 @@ static int	fd(void *v, t_fl f)
 		num /= 10;
 		s[--j] = c;
 	}
-	f = ft_putall(s, f, i);
+	f = ft_putall(s, f, ft_strlen(s));
 	free(s);
 	s = NULL;
 	return (f.len);
 }
 
-
-
 static int	fx(void *v, t_fl f)
 {
 	char	*s;
 	unsigned int	i;
-	int	len;
 	char	*base = "0123456789abcdef";
 	char	c;
 	int	j;
 
 	i = *(unsigned int *)&v;
-	len = ft_intlen(i);
-	j = len;
-	s = (char *)malloc(len * sizeof(char));
+	j = ft_intlen(i);
+	s = (char *)malloc(j * sizeof(char));
 	while (i > 0)
 	{
 		c = base[i % 16];
 		i /= 16;
 		s[--j] = c;
 	}
-	f = ft_putall(s, f, len);
+	s += j;
+	f = ft_putall(s, f, ft_strlen(s));
+	s -= j;
 	free(s);
 	s = NULL;
 	return (f.len);
