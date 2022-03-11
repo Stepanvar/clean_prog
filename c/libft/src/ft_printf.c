@@ -38,7 +38,7 @@ static	t_fl	ft_putall(char *s, t_fl f, int len)
 		f.pre = len;
 	f.wid = f.wid - f.pre;
 	while (f.wid-- > 0)
-		f.len += write(1, "0", 1);
+		f.len += write(1, " ", 1);
 	f.len += write(1, s, f.pre);
 	return (f);
 }
@@ -131,10 +131,6 @@ static int	ft_harg(va_list p, const char *s, t_fl f)
 	//send va_arg to certain function
 	int	(*fm[4])(void *, t_fl) = {&fs, &fd, &fx};
 	f = ft_hspec(++s, f);
-	/*ft_itoa(f.wid);
-	write(1, "\n", 1);
-	ft_itoa(f.pre);
-	write(1, "\n", 1);*/
 	if (f.func == 's')
 		f.len = (*fm[0])(va_arg(p, void *), f);
 	if (f.func == 'd')
@@ -144,8 +140,9 @@ static int	ft_harg(va_list p, const char *s, t_fl f)
 	return (f.len);
 }
 
-static t_fl	ft_init_f(t_fl f)
+static t_fl	ft_init_f(void)
 {
+	t_fl	f;
 	//init all struct
 	f.len = 0;
 	f.pre = 0;
@@ -161,7 +158,7 @@ static int	ft_find_spec(va_list p, const char *s)
 	t_fl	f;
 
 	i = 0;
-	f = ft_init_f(f);
+	f = ft_init_f();
 	while (s[i])
 	{
 		//f.len return all len of the read arg
