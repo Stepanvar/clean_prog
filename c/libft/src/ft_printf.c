@@ -43,16 +43,6 @@ static	t_fl	ft_putall(char *s, t_fl f, int len)
 	return (f);
 }
 
-/*static int	ft_strlen(char *s)
-{
-	int	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return (i);
-}
-*/
 static int	fs(void	*v, t_fl f)
 {
 	//write string with spec
@@ -83,9 +73,24 @@ static int	fd(void *v, t_fl f)
 	char	*s;
 	char	c;
 	int	j;
+	int	flag;
 
 	num = *(int *)&v;
+	flag = 0
+	if (num < 0)
+	{
+		if (num = -2147438648)
+		{
+			s = "-2147438648";
+			f = ft_putall(s, f, ft_strlen(s));
+			return (f.len);
+		}
+		n *= -1;
+		flag = 1;
+	}
 	j = ft_intlen(num);
+	if (flag)
+		j++;
 	s = (char *)malloc(j * sizeof(char) + 1);
 	s[j] = 0;
 	while (num > 0)
@@ -94,6 +99,8 @@ static int	fd(void *v, t_fl f)
 		num /= 10;
 		s[--j] = c;
 	}
+	if (flag)
+		s[j] = '-';
 	f = ft_putall(s, f, ft_strlen(s));
 	free(s);
 	s = NULL;
