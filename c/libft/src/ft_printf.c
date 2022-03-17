@@ -76,16 +76,16 @@ static int	fd(void *v, t_fl f)
 	int	flag;
 
 	num = *(int *)&v;
-	flag = 0
+	flag = 0;
 	if (num < 0)
 	{
-		if (num = -2147438648)
+		if (num == -2147438648)
 		{
 			s = "-2147438648";
 			f = ft_putall(s, f, ft_strlen(s));
 			return (f.len);
 		}
-		n *= -1;
+		num *= -1;
 		flag = 1;
 	}
 	j = ft_intlen(num);
