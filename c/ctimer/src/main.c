@@ -1,6 +1,7 @@
 #include "stdlib.h"
 #include "libft.h"
 #include "stdio.h"
+#include "time.h"
 
 char	*ft_strjoin(char *command, char *s)
 {
@@ -26,10 +27,15 @@ char	*ft_strjoin(char *command, char *s)
 int	main(void)
 {
 	char	s[20];
+	int	fd = 0;
+	int	num = 0;
 	char	*command;
-	command = "termux-toast -b black -g bottom Time_passed ";
+	time_t	start = time(NULL);
 	ft_printf("Enter what will you do\n");
 	scanf("%s", s);
+	while (time(NULL) < start + 10)
+		num++;
+	command = "termux-toast -b black -g bottom Time_passed ";
 	command = ft_strjoin(command, s);
 	system(command);
 	free(command);
