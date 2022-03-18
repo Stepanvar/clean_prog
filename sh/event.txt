@@ -1,0 +1,4 @@
+food + bed: 0 h 21 m 0 s
+
+add tasks in bioinfo: 0 h 25 m 0 s
+define words: 0 h 2 m 0 s
