@@ -29,8 +29,8 @@ do
 	s=$((($pass - $h * 3600) % 60))
 	termux-toast -b black -g bottom "Time passed: $h h $m m $s s"
 	touch event.txt
-	#awk -v event="$event" 'BEGIN{regexp = event"($|.+$)"}{if ($0 !~ regexp) print $0}' event.txt > event1.txt
-	#mv event1.txt event.txt
+	awk -v event="$event" 'BEGIN{regexp = event"($|.+$)"}{if ($0 !~ regexp) print $0}' event.txt > event1.txt
+	mv event1.txt event.txt
 	echo "${event}: $h h $m m $s s" >> event.txt
 	termux-vibrate -f -d 500
 done
