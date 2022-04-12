@@ -1,32 +1,41 @@
 # clean\_prog
 
-I solemnly swear that I will not scatter garbage in this repository
+> I solemnly swear that I will not scatter garbage in this repository
 
-#sh
+# sh
 
-It is a directory with next bash files:
+##**It is a directory with next bash files:
 
-1)terminal\_autoconf.sh
+1. [configure.sh][1]
 
-	auto configure terminal
+Auto configure terminal
 
-2)create\_proj\_struct.sh
+2. [mkcstrct.sh][1]
 
-	creat structure for c project and/or renew Makefile
+Create structure for c project and/or renew Makefile and copy libraries in project directory
 
-3)timer.sh
-	run timer with any user duration 
+3. [timer.sh][1]
 
-#c
+**Termux only!**
+Run timer on with any user duration and message
 
-It is a directory with next c projects:
+# C
 
-1) beginend
+##**It is a directory with next c projects:
 
-	print num
+1. [arr\_ptr](/c/arr_ptr/)
 
-#python
+Print information about differences and similarities between arrays and pointers
 
-It is a directory with next python projects:
+2. [first\_ai](/c/first_ai)
+
+The simplest perceptron AI
+
+Find regularities in the input and predict answer of another input 
+# Python
+
+##**It is a directory with next python projects:
 
 1)
+
+[1]: (/sh/)
