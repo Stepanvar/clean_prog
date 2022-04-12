@@ -8,7 +8,7 @@
 *.obj
 *.elf
 #txt file
-/data/data/com.termux/files/home/clean_prog/sh/event.txt
+*.ign
 # Linker output
 *.ilk
 *.map

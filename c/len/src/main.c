@@ -1,7 +1,5 @@
 #include "stdio.h"
 #include "libft.h"
-#include "ft_atoi.h"
-;
 int	main(void)
 {
 	int	i;
@@ -10,8 +8,8 @@ int	main(void)
 	str = "Hello my boy";
 	i = 0;
 	i = ft_strlen(str);
-	printf("%d\n", i);
-	i = ft_atoi(str);
+	while (i)
+		i++;
 	printf("%d\n", i);
 	return (0);
 }
