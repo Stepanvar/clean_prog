@@ -23,7 +23,13 @@ alias upgd="pkg update && pkg upgrade"
 	git push origin $(git symbolic-ref HEAD --short)
 }' >> ~/.zshrc
 #add vim plugins
-mkdir -p ~/.vim && mkdir ~/.vim/plugins && git clone https://github.com/jiangmiao/auto-pairs.git ~/.vim/plugins/auto-pairs && git clone https://github.com/907th/vim-auto-save ~/.vim/plugins/vim-auto-save
+mkdir -p ~/.vim && mkdir ~/.vim/plugins
+git clone \
+	git://github.com/jiangmiao/auto-pairs.git \
+	~/.vim/plugins/auto-pairs
+git clone \
+	https://github.com/907th/vim-auto-save \
+	~/.vim/plugins/vim-auto-save
 #add vim configures commands
 echo '" Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
