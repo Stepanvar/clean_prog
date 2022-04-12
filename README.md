@@ -31,7 +31,20 @@ Print information about differences and similarities between arrays and pointers
 
 The simplest perceptron AI
 
-Find regularities in the input and predict answer of another input 
+Find regularities in the input and predict answer of another input
+
+3. [inter](/c/inter)
+
+Print deduplicated similar characters of strings in order of the first string
+
+4. [libalgo](/c/libalgo)
+
+library of the sorting algorithms
+
+5. [libft](/c/libft)
+
+library of the standard functions
+
 # Python
 
 ##**It is a directory with next python projects:
