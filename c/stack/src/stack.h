@@ -7,25 +7,25 @@ typedef unsigned char flag; //typedef consists of 'typedef', data type to tag, a
 
 struct stackb
 {
-	int	i;
+	long long	i;
 }; //declare certain struct
 
 struct stackp
 {
-	int	i;
+	long long	i;
 	struct stackp *next;
 }; //you can declare pointer to struct in the struct only with struct keyword
 
 struct stack1
 {
-	int	i;
+	long long	i;
 	char *str;
 	struct stack1 *next;
-} G;//declare struct with instance
+} st1;//declare struct with instance
 
 typedef struct s_stack
 {
-	int stack;
+	long long stack;
 	char *str;
 	struct s_stack *next;
 } t_stack;//typedef of the declared struct
