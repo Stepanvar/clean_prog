@@ -4,9 +4,10 @@ Help(){
 	echo "NAME"
 	echo "	timer.sh - timer with modifiable cycle"
 	echo "SYNOPSIS:"
-	echo -e "	timer.sh [-d \e[3mduration\e[0m] [-h]"
+	echo -e "	./timer.sh [-d \e[3mduration\e[0m] [-m \e[3mduration\e[0m]  [-h]"
 	echo "Description"
-	echo "	-d \e[3mduration\e[0m	the duration of the one timer cycle in sec (default 80)"
+	echo "	-d \e[3mduration\e[0m	The duration of the one timer cycle in sec (default 80)"
+	echo "	-e \e[3eventname\e[0m	Name of the event which is running"
 	echo "	-h	print this help"
 }
 
