@@ -1,0 +1,497 @@
+https://api.hh.ru/vacancies/54830582?host=hh.ru
+https://api.hh.ru/vacancies/53885115?host=hh.ru
+https://api.hh.ru/vacancies/52226181?host=hh.ru
+https://api.hh.ru/vacancies/54579319?host=hh.ru
+https://api.hh.ru/vacancies/54404367?host=hh.ru
+https://api.hh.ru/vacancies/54714161?host=hh.ru
+https://api.hh.ru/vacancies/53554938?host=hh.ru
+https://api.hh.ru/vacancies/54865108?host=hh.ru
+https://api.hh.ru/vacancies/54442169?host=hh.ru
+https://api.hh.ru/vacancies/47728989?host=hh.ru
+https://api.hh.ru/vacancies/54147027?host=hh.ru
+https://api.hh.ru/vacancies/54798794?host=hh.ru
+https://api.hh.ru/vacancies/54692864?host=hh.ru
+https://api.hh.ru/vacancies/50344878?host=hh.ru
+https://api.hh.ru/vacancies/52467676?host=hh.ru
+https://api.hh.ru/vacancies/54475492?host=hh.ru
+https://api.hh.ru/vacancies/54568123?host=hh.ru
+https://api.hh.ru/vacancies/54341413?host=hh.ru
+https://api.hh.ru/vacancies/54813079?host=hh.ru
+https://api.hh.ru/vacancies/53008120?host=hh.ru
+https://api.hh.ru/vacancies/54306201?host=hh.ru
+https://api.hh.ru/vacancies/54437032?host=hh.ru
+https://api.hh.ru/vacancies/53278387?host=hh.ru
+https://api.hh.ru/vacancies/54010694?host=hh.ru
+https://api.hh.ru/vacancies/54783150?host=hh.ru
+https://api.hh.ru/vacancies/54812379?host=hh.ru
+https://api.hh.ru/vacancies/54761928?host=hh.ru
+https://api.hh.ru/vacancies/54841669?host=hh.ru
+https://api.hh.ru/vacancies/54817427?host=hh.ru
+https://api.hh.ru/vacancies/54787472?host=hh.ru
+https://api.hh.ru/vacancies/54785230?host=hh.ru
+https://api.hh.ru/vacancies/54801721?host=hh.ru
+https://api.hh.ru/vacancies/54642202?host=hh.ru
+https://api.hh.ru/vacancies/54745425?host=hh.ru
+https://api.hh.ru/vacancies/54560592?host=hh.ru
+https://api.hh.ru/vacancies/54714354?host=hh.ru
+https://api.hh.ru/vacancies/54604713?host=hh.ru
+https://api.hh.ru/vacancies/47477803?host=hh.ru
+https://api.hh.ru/vacancies/53864514?host=hh.ru
+https://api.hh.ru/vacancies/53807906?host=hh.ru
+https://api.hh.ru/vacancies/54719894?host=hh.ru
+https://api.hh.ru/vacancies/50096275?host=hh.ru
+https://api.hh.ru/vacancies/54560730?host=hh.ru
+https://api.hh.ru/vacancies/54572527?host=hh.ru
+https://api.hh.ru/vacancies/54467031?host=hh.ru
+https://api.hh.ru/vacancies/54466574?host=hh.ru
+https://api.hh.ru/vacancies/54560325?host=hh.ru
+https://api.hh.ru/vacancies/52623926?host=hh.ru
+https://api.hh.ru/vacancies/54460426?host=hh.ru
+https://api.hh.ru/vacancies/54383420?host=hh.ru
+https://api.hh.ru/vacancies/54383421?host=hh.ru
+https://api.hh.ru/vacancies/54681837?host=hh.ru
+https://api.hh.ru/vacancies/54412835?host=hh.ru
+https://api.hh.ru/vacancies/54634466?host=hh.ru
+https://api.hh.ru/vacancies/54571310?host=hh.ru
+https://api.hh.ru/vacancies/54662392?host=hh.ru
+https://api.hh.ru/vacancies/54520566?host=hh.ru
+https://api.hh.ru/vacancies/54536468?host=hh.ru
+https://api.hh.ru/vacancies/54829601?host=hh.ru
+https://api.hh.ru/vacancies/54589467?host=hh.ru
+https://api.hh.ru/vacancies/50962674?host=hh.ru
+https://api.hh.ru/vacancies/54392758?host=hh.ru
+https://api.hh.ru/vacancies/52581749?host=hh.ru
+https://api.hh.ru/vacancies/54380581?host=hh.ru
+https://api.hh.ru/vacancies/50500213?host=hh.ru
+https://api.hh.ru/vacancies/50518625?host=hh.ru
+https://api.hh.ru/vacancies/54256362?host=hh.ru
+https://api.hh.ru/vacancies/54821176?host=hh.ru
+https://api.hh.ru/vacancies/54377717?host=hh.ru
+https://api.hh.ru/vacancies/53085819?host=hh.ru
+https://api.hh.ru/vacancies/50602044?host=hh.ru
+https://api.hh.ru/vacancies/50518330?host=hh.ru
+https://api.hh.ru/vacancies/54206175?host=hh.ru
+https://api.hh.ru/vacancies/54712142?host=hh.ru
+https://api.hh.ru/vacancies/54341417?host=hh.ru
+https://api.hh.ru/vacancies/51318980?host=hh.ru
+https://api.hh.ru/vacancies/54782696?host=hh.ru
+https://api.hh.ru/vacancies/54652514?host=hh.ru
+https://api.hh.ru/vacancies/54526182?host=hh.ru
+https://api.hh.ru/vacancies/54526183?host=hh.ru
+https://api.hh.ru/vacancies/54405175?host=hh.ru
+https://api.hh.ru/vacancies/54115316?host=hh.ru
+https://api.hh.ru/vacancies/54841829?host=hh.ru
+https://api.hh.ru/vacancies/54832293?host=hh.ru
+https://api.hh.ru/vacancies/54832275?host=hh.ru
+https://api.hh.ru/vacancies/54832280?host=hh.ru
+https://api.hh.ru/vacancies/54813814?host=hh.ru
+https://api.hh.ru/vacancies/54844209?host=hh.ru
+https://api.hh.ru/vacancies/54756042?host=hh.ru
+https://api.hh.ru/vacancies/51095111?host=hh.ru
+https://api.hh.ru/vacancies/52160891?host=hh.ru
+https://api.hh.ru/vacancies/54646194?host=hh.ru
+https://api.hh.ru/vacancies/54646195?host=hh.ru
+https://api.hh.ru/vacancies/54646197?host=hh.ru
+https://api.hh.ru/vacancies/52158777?host=hh.ru
+https://api.hh.ru/vacancies/54657433?host=hh.ru
+https://api.hh.ru/vacancies/54210248?host=hh.ru
+https://api.hh.ru/vacancies/53360705?host=hh.ru
+https://api.hh.ru/vacancies/54561338?host=hh.ru
+https://api.hh.ru/vacancies/52117041?host=hh.ru
+https://api.hh.ru/vacancies/54830582?host=hh.ru
+https://api.hh.ru/vacancies/53885115?host=hh.ru
+https://api.hh.ru/vacancies/52226181?host=hh.ru
+https://api.hh.ru/vacancies/54579319?host=hh.ru
+https://api.hh.ru/vacancies/54404367?host=hh.ru
+https://api.hh.ru/vacancies/54714161?host=hh.ru
+https://api.hh.ru/vacancies/53554938?host=hh.ru
+https://api.hh.ru/vacancies/54865108?host=hh.ru
+https://api.hh.ru/vacancies/54442169?host=hh.ru
+https://api.hh.ru/vacancies/47728989?host=hh.ru
+https://api.hh.ru/vacancies/54147027?host=hh.ru
+https://api.hh.ru/vacancies/54798794?host=hh.ru
+https://api.hh.ru/vacancies/54692864?host=hh.ru
+https://api.hh.ru/vacancies/50344878?host=hh.ru
+https://api.hh.ru/vacancies/52467676?host=hh.ru
+https://api.hh.ru/vacancies/54475492?host=hh.ru
+https://api.hh.ru/vacancies/54568123?host=hh.ru
+https://api.hh.ru/vacancies/54341413?host=hh.ru
+https://api.hh.ru/vacancies/54813079?host=hh.ru
+https://api.hh.ru/vacancies/53008120?host=hh.ru
+https://api.hh.ru/vacancies/54306201?host=hh.ru
+https://api.hh.ru/vacancies/54437032?host=hh.ru
+https://api.hh.ru/vacancies/53278387?host=hh.ru
+https://api.hh.ru/vacancies/54010694?host=hh.ru
+https://api.hh.ru/vacancies/54783150?host=hh.ru
+https://api.hh.ru/vacancies/54812379?host=hh.ru
+https://api.hh.ru/vacancies/54761928?host=hh.ru
+https://api.hh.ru/vacancies/54841669?host=hh.ru
+https://api.hh.ru/vacancies/54817427?host=hh.ru
+https://api.hh.ru/vacancies/54787472?host=hh.ru
+https://api.hh.ru/vacancies/54785230?host=hh.ru
+https://api.hh.ru/vacancies/54801721?host=hh.ru
+https://api.hh.ru/vacancies/54642202?host=hh.ru
+https://api.hh.ru/vacancies/54745425?host=hh.ru
+https://api.hh.ru/vacancies/54560592?host=hh.ru
+https://api.hh.ru/vacancies/54714354?host=hh.ru
+https://api.hh.ru/vacancies/54604713?host=hh.ru
+https://api.hh.ru/vacancies/47477803?host=hh.ru
+https://api.hh.ru/vacancies/53864514?host=hh.ru
+https://api.hh.ru/vacancies/53807906?host=hh.ru
+https://api.hh.ru/vacancies/54719894?host=hh.ru
+https://api.hh.ru/vacancies/50096275?host=hh.ru
+https://api.hh.ru/vacancies/54560730?host=hh.ru
+https://api.hh.ru/vacancies/54572527?host=hh.ru
+https://api.hh.ru/vacancies/54467031?host=hh.ru
+https://api.hh.ru/vacancies/54466574?host=hh.ru
+https://api.hh.ru/vacancies/54560325?host=hh.ru
+https://api.hh.ru/vacancies/52623926?host=hh.ru
+https://api.hh.ru/vacancies/54460426?host=hh.ru
+https://api.hh.ru/vacancies/54383420?host=hh.ru
+https://api.hh.ru/vacancies/54383421?host=hh.ru
+https://api.hh.ru/vacancies/54681837?host=hh.ru
+https://api.hh.ru/vacancies/54412835?host=hh.ru
+https://api.hh.ru/vacancies/54634466?host=hh.ru
+https://api.hh.ru/vacancies/54571310?host=hh.ru
+https://api.hh.ru/vacancies/54662392?host=hh.ru
+https://api.hh.ru/vacancies/54520566?host=hh.ru
+https://api.hh.ru/vacancies/54536468?host=hh.ru
+https://api.hh.ru/vacancies/54829601?host=hh.ru
+https://api.hh.ru/vacancies/54589467?host=hh.ru
+https://api.hh.ru/vacancies/50962674?host=hh.ru
+https://api.hh.ru/vacancies/54392758?host=hh.ru
+https://api.hh.ru/vacancies/52581749?host=hh.ru
+https://api.hh.ru/vacancies/54380581?host=hh.ru
+https://api.hh.ru/vacancies/50500213?host=hh.ru
+https://api.hh.ru/vacancies/50518625?host=hh.ru
+https://api.hh.ru/vacancies/54256362?host=hh.ru
+https://api.hh.ru/vacancies/54821176?host=hh.ru
+https://api.hh.ru/vacancies/54377717?host=hh.ru
+https://api.hh.ru/vacancies/53085819?host=hh.ru
+https://api.hh.ru/vacancies/50602044?host=hh.ru
+https://api.hh.ru/vacancies/50518330?host=hh.ru
+https://api.hh.ru/vacancies/54206175?host=hh.ru
+https://api.hh.ru/vacancies/54712142?host=hh.ru
+https://api.hh.ru/vacancies/54341417?host=hh.ru
+https://api.hh.ru/vacancies/51318980?host=hh.ru
+https://api.hh.ru/vacancies/54782696?host=hh.ru
+https://api.hh.ru/vacancies/54652514?host=hh.ru
+https://api.hh.ru/vacancies/54526182?host=hh.ru
+https://api.hh.ru/vacancies/54526183?host=hh.ru
+https://api.hh.ru/vacancies/54405175?host=hh.ru
+https://api.hh.ru/vacancies/54115316?host=hh.ru
+https://api.hh.ru/vacancies/54841829?host=hh.ru
+https://api.hh.ru/vacancies/54832293?host=hh.ru
+https://api.hh.ru/vacancies/54832275?host=hh.ru
+https://api.hh.ru/vacancies/54832280?host=hh.ru
+https://api.hh.ru/vacancies/54813814?host=hh.ru
+https://api.hh.ru/vacancies/54844209?host=hh.ru
+https://api.hh.ru/vacancies/54756042?host=hh.ru
+https://api.hh.ru/vacancies/51095111?host=hh.ru
+https://api.hh.ru/vacancies/52160891?host=hh.ru
+https://api.hh.ru/vacancies/54646194?host=hh.ru
+https://api.hh.ru/vacancies/54646195?host=hh.ru
+https://api.hh.ru/vacancies/54646197?host=hh.ru
+https://api.hh.ru/vacancies/52158777?host=hh.ru
+https://api.hh.ru/vacancies/54657433?host=hh.ru
+https://api.hh.ru/vacancies/54210248?host=hh.ru
+https://api.hh.ru/vacancies/53360705?host=hh.ru
+https://api.hh.ru/vacancies/54561338?host=hh.ru
+https://api.hh.ru/vacancies/52117041?host=hh.ru
+Python: 64
+ SQL: 76
+ Machine Learning: 18
+ Docker: 14
+ Numpy: 10
+ Java: 18
+ Spring Framework: 6
+ Git: 20
+ REST: 8
+ JavaScript: 16
+ UI: 2
+ Spting data: 2
+ Business English: 6
+ Analytical skills: 16
+ MS PowerPoint: 12
+ Management Reporting: 4
+ MS SQL: 4
+ Mathematical Analysis: 4
+ Математическая статистика: 8
+ теория вероятностей: 2
+ automatic speech recognition: 2
+ чат-боты: 2
+ WEB аналитика: 4
+ Big Data: 12
+ Linux: 14
+ Statistics: 4
+ PyTorch: 4
+ ML: 6
+ sklearn: 4
+ Анализ данных: 12
+ Управление проектами: 10
+ Agile Project Management: 8
+ Бизнес-анализ: 2
+ Постановка задач разработчикам: 2
+ Разработка технических заданий: 2
+ разработка гипотез: 2
+ Английский язык: 58
+ MS Excel: 10
+ PostgreSQL: 16
+ Market Research: 6
+ Маркетинговые исследования: 4
+ Деловая коммуникация: 4
+ Работа с большим объемом информации: 2
+ Грамотная речь: 2
+ Тайм-менеджмент: 2
+ Управление временем: 2
+ Многозадачность: 2
+ Управление продуктом: 2
+ Управление интернет-проектами: 2
+ PHP: 2
+ Symfony: 2
+ Docker-compose: 2
+ Nginx: 4
+ MySQL: 8
+ (*nix): 2
+ Data Mining: 8
+ Data Mining: ACNielsen: 2
+ Data Mining: Business Analytica: 2
+ Data Mining: Comcon: 2
+ Data Mining: Espar: 2
+ UML: 2
+ XML: 4
+ Atlassian Jira: 6
+ Adobe Photoshop: 4
+ Mind Map: 2
+ Аналитика: 2
+ Анализ требований: 2
+ Системное мышление: 2
+ AWS: 2
+ Elasticsearch: 2
+ GraphQL: 4
+ FastAPI: 2
+ Pandas: 10
+ NLP: 16
+ Sas: 2
+ TypeScript: 10
+ Angular: 6
+ CSS: 2
+ TeamCity: 2
+ OpenShift: 4
+ Kubernetes: 4
+ ORACLE: 6
+ DevOps: 4
+ Настройка серверов Apache: 2
+ Gitlab CI: 2
+ Ansible: 2
+ Data Analysis: 34
+ Анализ рисков: 2
+ ClickHouse: 2
+ Google AdWords: 6
+ Google Analytics: 16
+ Контекстная реклама: 2
+ Яндекс.Метрика: 14
+ Интернет-реклама: 4
+ Grails: 2
+ Hibernate ORM: 2
+ Vert.X: 2
+ Java EE: 4
+ Clickhouse: 2
+ Web Application Development: 2
+ Swift: 2
+ iOS: 2
+ VIPER: 2
+ R: 4
+ Data Science: 12
+ Машинное обучение: 6
+ Аналитик данных: 2
+ Business Development: 10
+ Leadership Skills: 8
+ Project management: 6
+ Tensorflow: 2
+ data science: 8
+ Presentation skills: 8
+ Communication Strategy: 2
+ Quality Management: 2
+ Business communication: 4
+ Strategic Management: 2
+ Analysis: 2
+ Information Technology: 4
+ Quality Control: 4
+ Multitasking: 2
+ Business Strategy: 2
+ Figma: 2
+ Mapping: 2
+ Поиск информации в интернет: 4
+ Прогнозирование: 2
+ SWOT анализ: 4
+ Маркетинговый анализ: 2
+ Веб-аналитика: 6
+ data studio: 2
+ Power BI: 8
+ BPMN: 2
+ Business Analysis: 2
+ Swimline: 2
+ Atlassian Confluence: 4
+ Scrum: 8
+ Кадровое делопроизводство: 2
+ Разработка должностных инструкций: 2
+ Трудовой кодекс РФ: 2
+ Администрирование ДМС: 2
+ Hadoop: 6
+ Математический анализ: 4
+ Spark: 4
+ Статистический анализ: 8
+ Oracle Pl/SQL: 2
+ MS SQL Server: 2
+ T-SQL: 2
+ PL/SQL: 2
+ PL/pgSQL: 2
+ RDBMS: 2
+ SQL Server: 2
+ База данных: Oracle: 2
+ Базы данных: 6
+ ООП: 14
+ Сбор и анализ информации: 2
+ Google Sheets: 2
+ Fluent English: 2
+ Research: 4
+ Pricing: 2
+ Corporate Finance: 2
+ Financial Modelling: 2
+ CFA: 2
+ Busines Valuation: 2
+ IFRS: 2
+ Alteryx: 2
+ C++: 6
+ AngularJS: 4
+ HTML5: 2
+ Node.js: 2
+ MongoDB: 2
+ Less: 2
+ Unit-экономика: 2
+ A/B тесты: 2
+ Firebase: 2
+ AppsFlyer: 2
+ Google Data Studio: 6
+ Google BigQuery: 2
+ Metabase: 2
+ Business intelligence: 2
+ Teamplayer: 6
+ Tableau: 6
+ Advertising: 2
+ Internet Marketing: 4
+ Mediascope: 2
+ Обучение: 2
+ Scikit-learn: 2
+ Matplotlib: 2
+ Keras: 2
+ Redux: 2
+ React: 2
+ Работа с данными: 2
+ Яндекс.Директ: 4
+ Performance marketing: 2
+ Teamleading: 4
+ Olap (online analytical processing): 2
+ СУБД: 2
+ Креативность: 2
+ Yandex Metrika: 2
+ Работа с базами данных: 4
+ SPSS: 2
+ Статистика: 4
+ Data Mining: SPSS: 2
+ Аналитические навыки: 2
+ Stata: 2
+ Математическое программирование: 2
+ Асинхронное программирование: 2
+ Аналитические исследования: 2
+ Алгоритмы: 2
+ Работа в команде: 2
+ API: 2
+ SCALA: 4
+ SEO: 2
+ CMS Wordpress: 2
+ Google Docs: 2
+ SEO оптимизация: 2
+ Trello: 2
+ Яндекс.Вебмастер: 2
+ SEO-копирайтинг: 2
+ Поисковая оптимизация сайтов: 2
+ Продвижение сайтов: 2
+ внутренний аудит сайта: 2
+ Поисковые системы: 2
+ CMS: 2
+ Технический аудит сайта: 2
+ Внешняя оптимизация сайта: 2
+ Pyspark: 2
+ Helpdesk: 2
+ Technical support: 2
+ Financial Analysis: 2
+ POS: 2
+ Oracle DB: 2
+ Java SE: 2
+ Активные продажи: 2
+ Sales Management: 2
+ Ведение переговоров: 2
+ Sales Skills: 2
+ pre-sales: 2
+ SOAP: 2
+ Customer Relationship Management: 2
+ Time management: 8
+ Customer Service: 2
+ WMS: 2
+ data collection terminals: 2
+ Consulting: 2
+ Customer Support: 2
+ Microsoft Office: 2
+ Android: 4
+ Azure: 4
+ C#: 4
+ Bash: 4
+ Salesforce: 4
+ SQLAlchemy: 2
+ Pytest: 2
+ Plotly Dash: 2
+ B2B Marketing: 2
+ Marketing Communication: 2
+ Retrofit: 6
+ RxJava: 6
+ Dagger 2: 6
+ Kotlin: 4
+ Clean Architecture: 6
+ MVVM: 2
+ Android SDK: 2
+ Room: 2
+ Rx: 2
+ OOP: 2
+ BSS: 2
+ Team management: 4
+ Magento: 2
+ scikit-learn: 2
+ scipy: 2
+ GPU: 2
+ SOLID: 2
+ MVC: 2
+ ASR: 6
+ speech-to-text: 6
+ компьютерное зрение: 6
+ E-Commerce: 2
+ Risk management: 2
+ Collection Of Debts: 2
+ Computer Science: 2
+ 1С программирование: 2
+ Веб-программирование: 2
+ С#: 2
+ Turbo Pascal: 2
+ BASIC: 2
+ С++: 2
+ C/C++: 2
+ Аналитическое мышление: 2
+ Pl/Python: 2
+ Administrating Skills: 2
+ Recruitment: 2
+ Business Process Management: 2
+ Preparing Presentations: 2
+ marketing administration: 2
+ QA: 2
+ Kafka: 2
