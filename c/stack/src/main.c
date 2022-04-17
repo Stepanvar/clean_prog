@@ -20,7 +20,7 @@ int main()
     point2.i = 88;
     printf("stackp = %d\n", point.i);
     printf("stackp next = %d\n", point.next->i);
-    s1.stack = 99;
+    s1.stack = 100;
     s2.stack = 111;
     s1.str = "first";
     s2.str = "second";
