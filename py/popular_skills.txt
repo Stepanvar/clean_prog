@@ -1,0 +1,297 @@
+ Data Mining: ACNielsen: 2
+ Data Mining: Business Analytica: 2
+ Data Mining: Comcon: 2
+ Data Mining: Espar: 2
+ Data Mining: SPSS: 2
+ База данных: Oracle: 2
+ 1С программирование: 2
+ A/B тесты: 2
+ Administrating Skills: 2
+ Advertising: 2
+ Alteryx: 2
+ Analysis: 2
+ Android SDK: 2
+ Ansible: 2
+ API: 2
+ AppsFlyer: 2
+ automatic speech recognition: 2
+ AWS: 2
+ B2B Marketing: 2
+ BASIC: 2
+ BPMN: 2
+ BSS: 2
+ Business Analysis: 2
+ Business intelligence: 2
+ Business Process Management: 2
+ Business Strategy: 2
+ Busines Valuation: 2
+ C/C++: 2
+ CFA: 2
+ Clickhouse: 2
+ ClickHouse: 2
+ CMS: 2
+ CMS Wordpress: 2
+ Collection Of Debts: 2
+ Communication Strategy: 2
+ Computer Science: 2
+ Consulting: 2
+ Corporate Finance: 2
+ CSS: 2
+ Customer Relationship Management: 2
+ Customer Service: 2
+ Customer Support: 2
+ data collection terminals: 2
+ data studio: 2
+ Docker-compose: 2
+ E-Commerce: 2
+ Elasticsearch: 2
+ FastAPI: 2
+ Figma: 2
+ Financial Analysis: 2
+ Financial Modelling: 2
+ Firebase: 2
+ Fluent English: 2
+ Gitlab CI: 2
+ Google BigQuery: 2
+ Google Docs: 2
+ Google Sheets: 2
+ GPU: 2
+ Grails: 2
+ Helpdesk: 2
+ Hibernate ORM: 2
+ HTML5: 2
+ IFRS: 2
+ iOS: 2
+ Java SE: 2
+ Kafka: 2
+ Keras: 2
+ Less: 2
+ Magento: 2
+ Mapping: 2
+ marketing administration: 2
+ Marketing Communication: 2
+ Matplotlib: 2
+ Mediascope: 2
+ Metabase: 2
+ Microsoft Office: 2
+ Mind Map: 2
+ MongoDB: 2
+ MS SQL Server: 2
+ Multitasking: 2
+ MVC: 2
+ MVVM: 2
+ (*nix): 2
+ Node.js: 2
+ Olap (online analytical processing): 2
+ OOP: 2
+ Oracle DB: 2
+ Oracle Pl/SQL: 2
+ Performance marketing: 2
+ PHP: 2
+ Plotly Dash: 2
+ PL/pgSQL: 2
+ Pl/Python: 2
+ PL/SQL: 2
+ POS: 2
+ Preparing Presentations: 2
+ pre-sales: 2
+ Pricing: 2
+ Pyspark: 2
+ Pytest: 2
+ QA: 2
+ Quality Management: 2
+ RDBMS: 2
+ React: 2
+ Recruitment: 2
+ Redux: 2
+ Risk management: 2
+ Room: 2
+ Rx: 2
+ Sales Management: 2
+ Sales Skills: 2
+ Sas: 2
+ scikit-learn: 2
+ Scikit-learn: 2
+ scipy: 2
+ SEO: 2
+ SEO-копирайтинг: 2
+ SEO оптимизация: 2
+ SOAP: 2
+ SOLID: 2
+ SPSS: 2
+ Spting data: 2
+ SQLAlchemy: 2
+ SQL Server: 2
+ Stata: 2
+ Strategic Management: 2
+ Swift: 2
+ Swimline: 2
+ Symfony: 2
+ TeamCity: 2
+ Technical support: 2
+ Tensorflow: 2
+ Trello: 2
+ T-SQL: 2
+ Turbo Pascal: 2
+ UI: 2
+ UML: 2
+ Unit-экономика: 2
+ Vert.X: 2
+ VIPER: 2
+ Web Application Development: 2
+ WMS: 2
+ Yandex Metrika: 2
+ Администрирование ДМС: 2
+ Активные продажи: 2
+ Алгоритмы: 2
+ Анализ рисков: 2
+ Анализ требований: 2
+ Аналитика: 2
+ Аналитик данных: 2
+ Аналитические исследования: 2
+ Аналитические навыки: 2
+ Аналитическое мышление: 2
+ Асинхронное программирование: 2
+ Бизнес-анализ: 2
+ Веб-программирование: 2
+ Ведение переговоров: 2
+ Внешняя оптимизация сайта: 2
+ внутренний аудит сайта: 2
+ Грамотная речь: 2
+ Кадровое делопроизводство: 2
+ Контекстная реклама: 2
+ Креативность: 2
+ Маркетинговый анализ: 2
+ Математическое программирование: 2
+ Многозадачность: 2
+ Настройка серверов Apache: 2
+ Обучение: 2
+ Поисковая оптимизация сайтов: 2
+ Поисковые системы: 2
+ Постановка задач разработчикам: 2
+ Прогнозирование: 2
+ Продвижение сайтов: 2
+ Работа в команде: 2
+ Работа с большим объемом информации: 2
+ Работа с данными: 2
+ разработка гипотез: 2
+ Разработка должностных инструкций: 2
+ Разработка технических заданий: 2
+ С#: 2
+ С++: 2
+ Сбор и анализ информации: 2
+ Системное мышление: 2
+ СУБД: 2
+ Тайм-менеджмент: 2
+ теория вероятностей: 2
+ Технический аудит сайта: 2
+ Трудовой кодекс РФ: 2
+ Управление временем: 2
+ Управление интернет-проектами: 2
+ Управление продуктом: 2
+ чат-боты: 2
+ Яндекс.Вебмастер: 2
+ Adobe Photoshop: 4
+ Android: 4
+ AngularJS: 4
+ Atlassian Confluence: 4
+ Azure: 4
+ Bash: 4
+ Business communication: 4
+ C#: 4
+ DevOps: 4
+ GraphQL: 4
+ Information Technology: 4
+ Internet Marketing: 4
+ Java EE: 4
+ Kotlin: 4
+ Kubernetes: 4
+ Management Reporting: 4
+ Mathematical Analysis: 4
+ MS SQL: 4
+ Nginx: 4
+ OpenShift: 4
+ PyTorch: 4
+ Quality Control: 4
+ R: 4
+ Research: 4
+ Salesforce: 4
+ SCALA: 4
+ sklearn: 4
+ Spark: 4
+ Statistics: 4
+ SWOT анализ: 4
+ Teamleading: 4
+ Team management: 4
+ WEB аналитика: 4
+ XML: 4
+ Деловая коммуникация: 4
+ Интернет-реклама: 4
+ Маркетинговые исследования: 4
+ Математический анализ: 4
+ Поиск информации в интернет: 4
+ Работа с базами данных: 4
+ Статистика: 4
+ Яндекс.Директ: 4
+ Angular: 6
+ ASR: 6
+ Atlassian Jira: 6
+ Business English: 6
+ C++: 6
+ Clean Architecture: 6
+ Dagger 2: 6
+ Google AdWords: 6
+ Google Data Studio: 6
+ Hadoop: 6
+ Market Research: 6
+ ML: 6
+ ORACLE: 6
+ Project management: 6
+ Retrofit: 6
+ RxJava: 6
+ speech-to-text: 6
+ Spring Framework: 6
+ Tableau: 6
+ Teamplayer: 6
+ Базы данных: 6
+ Веб-аналитика: 6
+ компьютерное зрение: 6
+ Машинное обучение: 6
+ Agile Project Management: 8
+ Data Mining: 8
+ data science: 8
+ Leadership Skills: 8
+ MySQL: 8
+ Power BI: 8
+ Presentation skills: 8
+ REST: 8
+ Scrum: 8
+ Time management: 8
+ Математическая статистика: 8
+ Статистический анализ: 8
+ Business Development: 10
+ MS Excel: 10
+ Numpy: 10
+ Pandas: 10
+ TypeScript: 10
+ Управление проектами: 10
+ Big Data: 12
+ Data Science: 12
+ MS PowerPoint: 12
+ Анализ данных: 12
+ Docker: 14
+ Linux: 14
+ ООП: 14
+ Яндекс.Метрика: 14
+ Analytical skills: 16
+ Google Analytics: 16
+ JavaScript: 16
+ NLP: 16
+ PostgreSQL: 16
+ Java: 18
+ Machine Learning: 18
+ Git: 20
+ Data Analysis: 34
+ Английский язык: 58
+Python: 64
+ SQL: 76
