@@ -6,34 +6,50 @@ LDIR	= ./libs
 SRCS	= $(shell find $(SDIR) -name '*.c')
 OBJS	= $(patsubst $(SDIR)/%.c, $(ODIR)/%.o, $(SRCS))
 DEPS	= $(patsubst $(ODIR)/%.o, $(DDIR)/%.d, $(OBJS))
+ODEPS	= $(patsubst $(ODIR)/%.o, $(ODIR)/%.d, $(OBJS))
 CFLAGS	= -Wall -Wextra -g $(AFL)
-SUBDIRS = $(shell find $(LDIR) -type d -name 'src')
-INCS	= $(patsubst %, -I%, $(SUBDIRS))
-MAIN	= $(shell grep -vo "main" $(SDIR)/*.c)
+LIBS	= $(shell find $(LDIR) -maxdepth 3 -name "*.a")
+DLIB    = $(dir $(LIBS))
+INCS	= $(patsubst %, -I%src, $(dir $(LIBS)))
+MAIN	= $(shell find $(SDIR) -name 'main.c')
 CC	= gcc
 RM	= rm -rf
 
 ifeq ($(MAIN),)
-	NAME	= $(addsuffix .a, $(BASENAME))
+	NAME	=$(addsuffix .a, $(BASENAME))
 else
-	NAME	= $(addsuffix .out, $(BASENAME))
+	NAME	=$(addsuffix .out, $(BASENAME))
 endif
 
 .PHONY: all
-all: $(NAME)
-$(NAME): $(LIBS) $(OBJS)
+all: $(DLIB) $(NAME) ZZ
+.PHONY: $(DLIB)
+$(DLIB): FORCE
+ifeq ($(LIBS),)
+	echo "no libs found"
+else
+	$(MAKE) -C $@
+endif
+
+.PHONY: FORCE
+FORCE:
+
+$(NAME): $(OBJS) $(LIBS)
 ifeq ($(MAIN),)
 	ar rcs $(NAME) $?
 else
 	$(CC) $(CFLAGS) -o $@ $^
 endif
+
 $(ODIR)/%.o: $(SDIR)/%.c
-	echo "$(LIBS)"
 	mkdir -p $(dir $@)
 	$(CC) $(CFLAGS) -c -o $@ $< $(INCS) -MMD
-	@for dep in $(notdir $(DEPS)); do \
-	mv $(ODIR)/$$dep $(DDIR)/$$dep; \
-	done
+.PHONY: ZZ
+ZZ:
+	mkdir -p $(DDIR)
+ifeq ($(wildcard $(DDIR)/*.d),)
+	mv $(ODEPS) $(DDIR)
+endif
 -include $(DEPS)
 .PHONY: clean
 clean:
@@ -41,8 +57,8 @@ clean:
 
 .PHONY: fclean
 fclean: clean
-	$(RM) $(ODIR)/* 
-	$(RM) $(DDIR)/*
+	$(RM) $(ODIR) 
+	$(RM) $(DDIR)
 
 .PHONY: re
 re: fclean all
