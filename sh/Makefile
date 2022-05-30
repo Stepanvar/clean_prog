@@ -1,16 +1,16 @@
-BASENAME	= compiler
+BASENAME	= cpp-syntax
 ODIR	= ./bin
 SDIR	= ./src
 DDIR	= ./deps
 LDIR	= ./libs
-SRCS	= $(shell find $(SDIR) -name '*.c')
-OBJS	= $(patsubst $(SDIR)/%.c, $(ODIR)/%.o, $(SRCS))
+SRCS	= $(shell find $(SDIR) -name '*.cpp')
+OBJS	= $(patsubst $(SDIR)/%.cpp, $(ODIR)/%.o, $(SRCS))
 DEPS	= $(patsubst $(ODIR)/%.o, $(DDIR)/%.d, $(OBJS))
 CFLAGS	= -Wall -Wextra -g $(AFL)
 SUBDIRS = $(shell find $(LDIR) -type d -name 'src')
 INCS	= $(patsubst %, -I%, $(SUBDIRS))
-MAIN	= $(shell grep -vo "main" $(SDIR)/*.c)
-CC	= gcc
+MAIN	= $(shell grep -o "main" $(SDIR)/*.cpp)
+CC	= g++
 RM	= rm -rf
 
 ifeq ($(MAIN),)
@@ -24,16 +24,14 @@ all: $(NAME)
 $(NAME): $(LIBS) $(OBJS)
 ifeq ($(MAIN),)
 	ar rcs $(NAME) $?
+	mv $(ODIR)/*.d $(DDIR)
 else
 	$(CC) $(CFLAGS) -o $@ $^
+	mv $(ODIR)/*.d $(DDIR)
 endif
-$(ODIR)/%.o: $(SDIR)/%.c
-	echo "$(LIBS)"
+$(ODIR)/%.o: $(SDIR)/%.cpp
 	mkdir -p $(dir $@)
 	$(CC) $(CFLAGS) -c -o $@ $< $(INCS) -MMD
-	@for dep in $(notdir $(DEPS)); do \
-	mv $(ODIR)/$$dep $(DDIR)/$$dep; \
-	done
 -include $(DEPS)
 .PHONY: clean
 clean:
@@ -46,4 +44,3 @@ fclean: clean
 
 .PHONY: re
 re: fclean all
-
