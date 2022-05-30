@@ -1,5 +1,5 @@
 #!/bin/zsh
-DIR=~/clean_prog/sh/
+DIR=~/Documents/clean_prog/sh
 #HELP
 Help(){
 	echo -e "NAME"
