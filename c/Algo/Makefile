@@ -1,4 +1,4 @@
-BASENAME	= algo
+BASENAME	= list
 ODIR	= ./bin
 SDIR	= ./src
 DDIR	= ./deps

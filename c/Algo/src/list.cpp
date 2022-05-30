@@ -1,7 +1,7 @@
 #include <iostream>
 #include <time.h>
 #include <stdlib.h>
-#include "algo.hpp"
+#include "list.hpp"
 using namespace std;
 //#sort/bubble #list
 s_num *list_bubble_sort(s_num *list)
