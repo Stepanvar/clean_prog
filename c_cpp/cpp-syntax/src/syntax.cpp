@@ -2,34 +2,46 @@
 using namespace std;
 
 int g_b = 10;//global var
+
+/**
+ * @brief print any type var
+ * 
+ * @tparam T 
+ * @param var 
+ */
 template<typename T>
 void print(T var)
 {
 	std::cout << var << std::endl;
 }
+
+/**
+ * @brief class People
+ * 
+ */
 class People
 {
 protected:
-	int growth;
+	int height;
 	int weight;
 	bool gender;
 	char *description;
 public:
-	void	setHeight(int height);
-	void	setMass(int mass);
-	People(int height, int mass);
+	void	setHeight(int h);
+	void	setMass(int m);
+	People(int h, int m);
 	~People();
 };
-void	People::setHeight(int height)
+void	People::setHeight(int h)
 {
-	People::growth = height;
+	People::height = h;
 }
 
-void	People::setMass(int mass)
+void	People::setMass(int m)
 {
-	People::weight = mass;
+	People::weight = m;
 }
-People::People(int height, int mass): growth(height), weight(mass)
+People::People(int h, int m): height(h), weight(m)
 {
 	print("One more human was born");
 }
@@ -41,14 +53,34 @@ People::~People()
 
 class Male: public People
 {
+	char	mark;
 protected:
 	bool gender = true;
+	void genMark(int h, int m);
 public:
-	Male(int height, int mass);
+	Male(int h, int m);
 	~Male();
 };
-Male::Male(int height, int mass): People(height, mass)
+/**
+ * @brief generate mark base on height and weight
+ * 
+ * @param h 
+ * @param m 
+ */
+void	Male::genMark(int h, int m)
 {
+	float	imt;
+	imt = (float) m / h * h / 10000;
+	if (imt == 20)
+		Male::mark = 'A';
+	else if (imt > 20)
+		Male::mark = 'C';
+	else
+		Male::mark = 'B';	
+}
+Male::Male(int h, int m): People(h, m)
+{
+	Male::genMark(h, m);
 	print("It is a boy");
 }
 Male::~Male()
@@ -57,10 +89,8 @@ Male::~Male()
 }
 int	main()
 {
-	People	Luntik(180, 60);
-	Male	Spider_man(190, 80);
+	People	Cherchil(180, 60);
+	Male	Stalin(190, 80);
 
-	//int	i = 10;
-	//print(i);
 	return (0);
 }
