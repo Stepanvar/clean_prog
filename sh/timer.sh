@@ -33,7 +33,7 @@ do
 	awk -v event="$event" 'BEGIN{regexp = event"($|.+$)"}{if ($0 !~ regexp) print $0}' event.ign > event1.ign
 	mv event1.ign event.ign
 	echo "${event}:	$h h $m m $s s" >> event.ign
-	termux-vibrate -f -d 500
+	termux-vibrate -f -d 1000
 done
 }
 #MAIN
