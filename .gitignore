@@ -9,8 +9,13 @@
 *.ko
 *.obj
 *.elf
+
 #event file
 *.ign
+
+#sensirive information
+*/.env
+
 # Linker output
 *.ilk
 *.map
