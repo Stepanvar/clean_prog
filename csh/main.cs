@@ -1,5 +1,0 @@
-using System;
-int main()
-{
-	
-}

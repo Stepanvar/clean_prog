@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Jul  3 09:32:28 2022
+# Make data base, printed on Sun Jul 10 10:42:52 2022
 
 # Variables
 
@@ -23,15 +23,13 @@ SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b95294b9-b362-4926-9f73-ee5afe45b80d.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ae6b3e86-d495-4134-b19f-17c5326834ad.sock
 # environment
 LC_NAME = ru_RU.UTF-8
 # environment
 LC_NUMERIC = ru_RU.UTF-8
 # environment
 VSCODE_CWD = /home/stepanvar
-# environment
-WINDOWPATH = 2
 # environment
 LC_ADDRESS = ru_RU.UTF-8
 # default
@@ -49,7 +47,7 @@ PWD = /home/stepanvar/Documents/clean_prog
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/home/stepanvar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /usr/share/ubuntu:/home/stepanvar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -61,7 +59,7 @@ VSCODE_CODE_CACHE_PATH = /home/stepanvar/.config/Code/CachedData/30d9c6cd9483b2c
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/gdm/Xauthority
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.5BS8O1
 # default
 .LOADED := 
 # default
@@ -85,6 +83,8 @@ SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
 # environment
+WAYLAND_DISPLAY = wayland-0
+# environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
@@ -97,13 +97,13 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 13351
+VSCODE_PID = 1444083
 # environment
-XDG_SESSION_TYPE = x11
+XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/step:@/tmp/.ICE-unix/11617,unix/step:/tmp/.ICE-unix/11617
+SESSION_MANAGER = local/step:@/tmp/.ICE-unix/9714,unix/step:/tmp/.ICE-unix/9714
 # automatic
 *F = $(notdir $*)
 # environment
@@ -130,6 +130,8 @@ GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 SHLVL = 0
 # environment
 MAKELEVEL := 0
+# environment
+IM_CONFIG_CHECK_ENV = 1
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
@@ -143,11 +145,13 @@ LC_MONETARY = ru_RU.UTF-8
 # environment
 LC_TIME = ru_RU.UTF-8
 # environment
-INVOCATION_ID = 655d8a2f650e4fc890dbe45b11deb23b
+INVOCATION_ID = 9763fb3b87b945209a4b004506b4f9c2
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
 USERNAME = stepanvar
+# environment
+GNOME_SETUP_DISPLAY = :1
 # environment
 LC_TELEPHONE = ru_RU.UTF-8
 # environment
@@ -173,9 +177,9 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 11686
+SYSTEMD_EXEC_PID = 9740
 # environment
-DISPLAY = :1
+DISPLAY = :0
 # environment
 USER = stepanvar
 # environment
@@ -183,11 +187,11 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 9777
+MANAGERPID = 9569
 # environment
 LC_MEASUREMENT = ru_RU.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 13351
+GIO_LAUNCHED_DESKTOP_FILE_PID = 1444083
 # environment
 _ = /usr/share/code/code
 # environment
@@ -195,9 +199,7 @@ LC_PAPER = ru_RU.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
-# environment
-JOURNAL_STREAM = 8:34857
+JOURNAL_STREAM = 8:33450
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -210,6 +212,8 @@ QT_IM_MODULE = ibus
 ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-d1f3a97f-1.68.1-main.sock
+# environment
+IM_CONFIG_PHASE = 1
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -225,7 +229,8 @@ GDMSESSION = ubuntu
 # environment
 LC_IDENTIFICATION = ru_RU.UTF-8
 # variable set hash-table stats:
-# Load=106/1024=10%, Rehash=0, Collisions=4/133=3%
+ 
+# Load=108/1024=11%, Rehash=0, Collisions=4/135=3%
 
 # Pattern-specific Variable Values
 
@@ -233,9 +238,9 @@ LC_IDENTIFICATION = ru_RU.UTF-8
 
 # Directories
 
-# . (device 2051, inode 6688768): 13 files, no impossibilities.
+# . (device 2051, inode 6688768): 15 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -282,16 +287,15 @@ GNUmakefile:
 # VPATH Search Paths
 
 # No 'vpath' search paths.
- 
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 21 / storage = 157 B / avg = 7 B
-# current buf: size = 8162 B / used = 157 B / count = 21 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 23 / storage = 186 B / avg = 8 B
+# current buf: size = 8162 B / used = 186 B / count = 23 / avg = 8 B
 
-# strcache performance: lookups = 24 / hit rate = 12%
+# strcache performance: lookups = 26 / hit rate = 11%
 # hash-table stats:
-# Load=21/8192=0%, Rehash=0, Collisions=0/24=0%
-# Finished Make data base on Sun Jul  3 09:32:28 2022
+# Load=23/8192=0%, Rehash=0, Collisions=1/26=4%
+# Finished Make data base on Sun Jul 10 10:42:52 2022
 
  

@@ -1,4 +1,4 @@
-BASENAME	= c-syntax
+BASENAME	= libalgo
 ODIR	= ./bin
 SDIR	= ./src
 DDIR	= ./deps

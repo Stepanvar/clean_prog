@@ -1,4 +1,4 @@
-BASENAME	= c-syntax
+BASENAME	= test
 ODIR	= ./bin
 SDIR	= ./src
 DDIR	= ./deps

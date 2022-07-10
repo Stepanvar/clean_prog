@@ -1,4 +1,4 @@
-BASENAME	= c-syntax
+BASENAME	= first_ai
 ODIR	= ./bin
 SDIR	= ./src
 DDIR	= ./deps

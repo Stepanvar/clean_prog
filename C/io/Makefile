@@ -1,4 +1,4 @@
-BASENAME	= c-syntax
+BASENAME	= io
 ODIR	= ./bin
 SDIR	= ./src
 DDIR	= ./deps

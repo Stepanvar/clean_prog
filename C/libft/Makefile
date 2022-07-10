@@ -1,4 +1,4 @@
-BASENAME	= c-syntax
+BASENAME	= libft
 ODIR	= ./bin
 SDIR	= ./src
 DDIR	= ./deps
