@@ -1,0 +1,3 @@
+#include "../src/libft.h"
+#test chartest
+	fail_unless(ft_putchar('@') == '@');

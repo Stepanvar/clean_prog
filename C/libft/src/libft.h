@@ -9,5 +9,5 @@ s_num   *list_bubble_sort(s_num *list);
 int	ft_strlen(const char *str);
 void	ft_itoa(int n);
 int	ft_printf(const char *s, ...);
-void ft_putchar(unsigned char c);
+unsigned char ft_putchar(unsigned char c);
 #endif

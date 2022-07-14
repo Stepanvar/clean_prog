@@ -1,4 +1,4 @@
-BASENAME	= io
+BASENAME	= libft
 TNAME	= unit_$(BASENAME)
 ODIR	= ./bin
 SDIR	= ./src
