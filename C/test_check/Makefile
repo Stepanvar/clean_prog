@@ -43,8 +43,8 @@ $(TNAME): $(TOBJS)
 	mv $(ODIR)/*.d $(DDIR)/
 
 $(ODIR)/%.o: $(TDIR)/%.c
+	checkmk $(wildcard *.check) > $(TSRCS)
 	$(CC) $(CFLAGS) -c -o $@ $< $(INCS) -lcheck -lm -lsubunit -MMD
-
 .PHONY: r
 r: all $(NAME)
 $(NAME): $(LIBS) $(OBJS) $(MAINO)

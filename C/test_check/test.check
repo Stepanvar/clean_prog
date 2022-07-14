@@ -1,0 +1,5 @@
+#include "../src/sum.h"
+#test sum1test
+	fail_unless(sum(INT32_MAX, 0) == INT32_MAX);
+#test sum2test
+	fail_unless(sum(2, 2) == 4);
