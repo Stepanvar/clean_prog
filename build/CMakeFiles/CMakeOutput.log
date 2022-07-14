@@ -1,0 +1,1545 @@
+The system is: Linux - 5.15.0-41-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/stepanvar/Documents/clean_prog/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/stepanvar/Documents/clean_prog/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12247/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12247.dir/build.make CMakeFiles/cmTC_12247.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc   -v -o CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_12247.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_12247.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccEOTmMu.s
+GNU C17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: ead6677a8de2192bf1e5ee7b28d13856
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_12247.dir/'
+ as -v --64 -o CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o /tmp/ccEOTmMu.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_12247
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12247.dir/link.txt --verbose=1
+/usr/bin/gcc  -v CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o -o cmTC_12247 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12247' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_12247.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWQ7fto.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_12247 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12247' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_12247.'
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12247/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12247.dir/build.make CMakeFiles/cmTC_12247.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_12247.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_12247.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccEOTmMu.s]
+  ignore line: [GNU C17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: ead6677a8de2192bf1e5ee7b28d13856]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_12247.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o /tmp/ccEOTmMu.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_12247]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12247.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc  -v CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o -o cmTC_12247 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_12247' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_12247.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWQ7fto.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_12247 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccWQ7fto.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_12247] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_12247.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_588fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_588fb.dir/build.make CMakeFiles/cmTC_588fb.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++   -v -o CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_588fb.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_588fb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccbA1cGQ.s
+GNU C++17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 619370d92bf6efc3023abfa7394da0c1
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_588fb.dir/'
+ as -v --64 -o CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccbA1cGQ.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_588fb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_588fb.dir/link.txt --verbose=1
+/usr/bin/g++  -v CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_588fb 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_588fb' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_588fb.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZZhcTQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_588fb /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_588fb' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_588fb.'
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_588fb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_588fb.dir/build.make CMakeFiles/cmTC_588fb.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++   -v -o CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_588fb.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_588fb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccbA1cGQ.s]
+  ignore line: [GNU C++17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.2.0-19ubuntu1) version 11.2.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 619370d92bf6efc3023abfa7394da0c1]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_588fb.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccbA1cGQ.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_588fb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_588fb.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++  -v CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_588fb ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.2.0-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-gBFGDP/gcc-11-11.2.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.2.0 (Ubuntu 11.2.0-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_588fb' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_588fb.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZZhcTQ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_588fb /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZZhcTQ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_588fb] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_588fb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files ;sys/types.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e77c9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e77c9.dir/build.make CMakeFiles/cmTC_e77c9.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e77c9.dir/HAVE_SYS_TYPES_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_e77c9.dir/HAVE_SYS_TYPES_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TYPES_H.c
+Linking C executable cmTC_e77c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e77c9.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_e77c9.dir/HAVE_SYS_TYPES_H.c.o -o cmTC_e77c9 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_196e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_196e2.dir/build.make CMakeFiles/cmTC_196e2.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_196e2.dir/HAVE_ERRNO_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_196e2.dir/HAVE_ERRNO_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_ERRNO_H.c
+Linking C executable cmTC_196e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_196e2.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_196e2.dir/HAVE_ERRNO_H.c.o -o cmTC_196e2 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fa6a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fa6a6.dir/build.make CMakeFiles/cmTC_fa6a6.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa6a6.dir/HAVE_INTTYPES_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_fa6a6.dir/HAVE_INTTYPES_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_INTTYPES_H.c
+Linking C executable cmTC_fa6a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa6a6.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_fa6a6.dir/HAVE_INTTYPES_H.c.o -o cmTC_fa6a6 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1e4ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1e4ef.dir/build.make CMakeFiles/cmTC_1e4ef.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e4ef.dir/HAVE_LIMITS_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_1e4ef.dir/HAVE_LIMITS_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_LIMITS_H.c
+Linking C executable cmTC_1e4ef
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e4ef.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_1e4ef.dir/HAVE_LIMITS_H.c.o -o cmTC_1e4ef 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_636f3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_636f3.dir/build.make CMakeFiles/cmTC_636f3.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_636f3.dir/HAVE_REGEX_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_636f3.dir/HAVE_REGEX_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_REGEX_H.c
+Linking C executable cmTC_636f3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_636f3.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_636f3.dir/HAVE_REGEX_H.c.o -o cmTC_636f3 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h;signal.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d3b4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d3b4.dir/build.make CMakeFiles/cmTC_7d3b4.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d3b4.dir/HAVE_SIGNAL_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_7d3b4.dir/HAVE_SIGNAL_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_SIGNAL_H.c
+Linking C executable cmTC_7d3b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d3b4.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_7d3b4.dir/HAVE_SIGNAL_H.c.o -o cmTC_7d3b4 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h;signal.h;stdarg.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ffc3d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ffc3d.dir/build.make CMakeFiles/cmTC_ffc3d.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffc3d.dir/HAVE_STDARG_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_ffc3d.dir/HAVE_STDARG_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_STDARG_H.c
+Linking C executable cmTC_ffc3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc3d.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_ffc3d.dir/HAVE_STDARG_H.c.o -o cmTC_ffc3d 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h;signal.h;stdarg.h;stdint.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0db12/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0db12.dir/build.make CMakeFiles/cmTC_0db12.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0db12.dir/HAVE_STDINT_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_0db12.dir/HAVE_STDINT_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_STDINT_H.c
+Linking C executable cmTC_0db12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0db12.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_0db12.dir/HAVE_STDINT_H.c.o -o cmTC_0db12 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h;signal.h;stdarg.h;stdint.h;stdlib.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_172e9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_172e9.dir/build.make CMakeFiles/cmTC_172e9.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_172e9.dir/HAVE_STDLIB_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_172e9.dir/HAVE_STDLIB_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_172e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_172e9.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_172e9.dir/HAVE_STDLIB_H.c.o -o cmTC_172e9 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h;signal.h;stdarg.h;stdint.h;stdlib.h;string.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c1a86/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c1a86.dir/build.make CMakeFiles/cmTC_c1a86.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1a86.dir/HAVE_STRING_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_c1a86.dir/HAVE_STRING_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_STRING_H.c
+Linking C executable cmTC_c1a86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1a86.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_c1a86.dir/HAVE_STRING_H.c.o -o cmTC_c1a86 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h;signal.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4a752/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4a752.dir/build.make CMakeFiles/cmTC_4a752.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a752.dir/HAVE_STRINGS_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_4a752.dir/HAVE_STRINGS_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_STRINGS_H.c
+Linking C executable cmTC_4a752
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a752.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_4a752.dir/HAVE_STRINGS_H.c.o -o cmTC_4a752 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h;signal.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/time.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5518b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5518b.dir/build.make CMakeFiles/cmTC_5518b.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5518b.dir/HAVE_SYS_TIME_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_5518b.dir/HAVE_SYS_TIME_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
+Linking C executable cmTC_5518b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5518b.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_5518b.dir/HAVE_SYS_TIME_H.c.o -o cmTC_5518b 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h;signal.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/time.h;time.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66de8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_66de8.dir/build.make CMakeFiles/cmTC_66de8.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66de8.dir/HAVE_TIME_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_66de8.dir/HAVE_TIME_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_TIME_H.c
+Linking C executable cmTC_66de8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66de8.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_66de8.dir/HAVE_TIME_H.c.o -o cmTC_66de8 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h;signal.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/time.h;time.h;unistd.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ac50a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ac50a.dir/build.make CMakeFiles/cmTC_ac50a.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac50a.dir/HAVE_UNISTD_H.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_ac50a.dir/HAVE_UNISTD_H.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_ac50a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac50a.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_ac50a.dir/HAVE_UNISTD_H.c.o -o cmTC_ac50a 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h;errno.h;inttypes.h;limits.h;regex.h;signal.h;stdarg.h;stdint.h;stdlib.h;string.h;strings.h;sys/time.h;time.h;unistd.h;pthread.h exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_95dc8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95dc8.dir/build.make CMakeFiles/cmTC_95dc8.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95dc8.dir/HAVE_PTHREAD.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_95dc8.dir/HAVE_PTHREAD.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD.c
+Linking C executable cmTC_95dc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95dc8.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_95dc8.dir/HAVE_PTHREAD.c.o -o cmTC_95dc8 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7e841/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7e841.dir/build.make CMakeFiles/cmTC_7e841.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e841.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=fork -fPIE -std=gnu99 -o CMakeFiles/cmTC_7e841.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘fork’; expected ‘int(void)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_7e841
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e841.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=fork CMakeFiles/cmTC_7e841.dir/CheckFunctionExists.c.o -o cmTC_7e841 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getline exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6ac1f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6ac1f.dir/build.make CMakeFiles/cmTC_6ac1f.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6ac1f.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=getline -fPIE -std=gnu99 -o CMakeFiles/cmTC_6ac1f.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6ac1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6ac1f.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=getline CMakeFiles/cmTC_6ac1f.dir/CheckFunctionExists.c.o -o cmTC_6ac1f 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_52027/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_52027.dir/build.make CMakeFiles/cmTC_52027.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52027.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=getpid -fPIE -std=gnu99 -o CMakeFiles/cmTC_52027.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_52027
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52027.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=getpid CMakeFiles/cmTC_52027.dir/CheckFunctionExists.c.o -o cmTC_52027 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53e7d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53e7d.dir/build.make CMakeFiles/cmTC_53e7d.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53e7d.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=gettimeofday -fPIE -std=gnu99 -o CMakeFiles/cmTC_53e7d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_53e7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53e7d.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=gettimeofday CMakeFiles/cmTC_53e7d.dir/CheckFunctionExists.c.o -o cmTC_53e7d 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function localtime_r exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bea6e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bea6e.dir/build.make CMakeFiles/cmTC_bea6e.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bea6e.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=localtime_r -fPIE -std=gnu99 -o CMakeFiles/cmTC_bea6e.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bea6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bea6e.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=localtime_r CMakeFiles/cmTC_bea6e.dir/CheckFunctionExists.c.o -o cmTC_bea6e 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0bb94/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0bb94.dir/build.make CMakeFiles/cmTC_0bb94.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0bb94.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=malloc -fPIE -std=gnu99 -o CMakeFiles/cmTC_0bb94.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘malloc’; expected ‘void *(long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘malloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_0bb94
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bb94.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=malloc CMakeFiles/cmTC_0bb94.dir/CheckFunctionExists.c.o -o cmTC_0bb94 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83b73/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83b73.dir/build.make CMakeFiles/cmTC_83b73.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83b73.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=mkstemp -fPIE -std=gnu99 -o CMakeFiles/cmTC_83b73.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_83b73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83b73.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=mkstemp CMakeFiles/cmTC_83b73.dir/CheckFunctionExists.c.o -o cmTC_83b73 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a8ba4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a8ba4.dir/build.make CMakeFiles/cmTC_a8ba4.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8ba4.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=realloc -fPIE -std=gnu99 -o CMakeFiles/cmTC_a8ba4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘realloc’; expected ‘void *(void *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘realloc’ is declared in header ‘<stdlib.h>’
+  +++ |+#include <stdlib.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_a8ba4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8ba4.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=realloc CMakeFiles/cmTC_a8ba4.dir/CheckFunctionExists.c.o -o cmTC_a8ba4 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5dabc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5dabc.dir/build.make CMakeFiles/cmTC_5dabc.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5dabc.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=setenv -fPIE -std=gnu99 -o CMakeFiles/cmTC_5dabc.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5dabc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dabc.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=setenv CMakeFiles/cmTC_5dabc.dir/CheckFunctionExists.c.o -o cmTC_5dabc 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fe5c9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fe5c9.dir/build.make CMakeFiles/cmTC_fe5c9.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fe5c9.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=sigaction -fPIE -std=gnu99 -o CMakeFiles/cmTC_fe5c9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fe5c9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe5c9.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=sigaction CMakeFiles/cmTC_fe5c9.dir/CheckFunctionExists.c.o -o cmTC_fe5c9 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_581c8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_581c8.dir/build.make CMakeFiles/cmTC_581c8.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_581c8.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=strdup -fPIE -std=gnu99 -o CMakeFiles/cmTC_581c8.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘strdup’; expected ‘char *(const char *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_581c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_581c8.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=strdup CMakeFiles/cmTC_581c8.dir/CheckFunctionExists.c.o -o cmTC_581c8 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function strsignal exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a5039/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a5039.dir/build.make CMakeFiles/cmTC_a5039.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5039.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=strsignal -fPIE -std=gnu99 -o CMakeFiles/cmTC_a5039.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a5039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5039.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=strsignal CMakeFiles/cmTC_a5039.dir/CheckFunctionExists.c.o -o cmTC_a5039 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function alarm exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da65d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da65d.dir/build.make CMakeFiles/cmTC_da65d.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da65d.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=alarm -fPIE -std=gnu99 -o CMakeFiles/cmTC_da65d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_da65d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da65d.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=alarm CMakeFiles/cmTC_da65d.dir/CheckFunctionExists.c.o -o cmTC_da65d 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function regcomp exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_442c1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_442c1.dir/build.make CMakeFiles/cmTC_442c1.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_442c1.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=regcomp -fPIE -std=gnu99 -o CMakeFiles/cmTC_442c1.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_442c1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_442c1.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=regcomp CMakeFiles/cmTC_442c1.dir/CheckFunctionExists.c.o -o cmTC_442c1 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function regexec exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_939ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_939ce.dir/build.make CMakeFiles/cmTC_939ce.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_939ce.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=regexec -fPIE -std=gnu99 -o CMakeFiles/cmTC_939ce.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_939ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_939ce.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=regexec CMakeFiles/cmTC_939ce.dir/CheckFunctionExists.c.o -o cmTC_939ce 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function snprintf exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e7d3d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e7d3d.dir/build.make CMakeFiles/cmTC_e7d3d.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7d3d.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=snprintf -fPIE -std=gnu99 -o CMakeFiles/cmTC_e7d3d.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘snprintf’; expected ‘int(char *, long unsigned int,  const char *, ...)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘snprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_e7d3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7d3d.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=snprintf CMakeFiles/cmTC_e7d3d.dir/CheckFunctionExists.c.o -o cmTC_e7d3d 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_422f2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_422f2.dir/build.make CMakeFiles/cmTC_422f2.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_422f2.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=vsnprintf -fPIE -std=gnu99 -o CMakeFiles/cmTC_422f2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘vsnprintf’; expected ‘int(char *, long unsigned int,  const char *, __va_list_tag *)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘vsnprintf’ is declared in header ‘<stdio.h>’
+  +++ |+#include <stdio.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_422f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_422f2.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=vsnprintf CMakeFiles/cmTC_422f2.dir/CheckFunctionExists.c.o -o cmTC_422f2 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f128/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f128.dir/build.make CMakeFiles/cmTC_1f128.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f128.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_1f128.dir/CheckSymbolExists.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1f128
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f128.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_1f128.dir/CheckSymbolExists.c.o -o cmTC_1f128 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_500f2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_500f2.dir/build.make CMakeFiles/cmTC_500f2.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_500f2.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_500f2.dir/CheckSymbolExists.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_500f2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_500f2.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_500f2.dir/CheckSymbolExists.c.o -o cmTC_500f2 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_PTHREADS_FLAG succeeded with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4f54f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4f54f.dir/build.make CMakeFiles/cmTC_4f54f.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f54f.dir/src.c.o
+/usr/bin/gcc -DHAVE_PTHREADS_FLAG  -fPIE   -pthread -std=gnu99 -o CMakeFiles/cmTC_4f54f.dir/src.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4f54f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f54f.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_4f54f.dir/src.c.o -o cmTC_4f54f 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the INT64_MAX exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27020/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27020.dir/build.make CMakeFiles/cmTC_27020.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27020.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_27020.dir/CheckSymbolExists.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_27020
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27020.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_27020.dir/CheckSymbolExists.c.o -o cmTC_27020 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <stdint.h>
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef INT64_MAX
+  return ((int*)(&INT64_MAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the INT64_MIN exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cce72/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cce72.dir/build.make CMakeFiles/cmTC_cce72.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cce72.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_cce72.dir/CheckSymbolExists.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cce72
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cce72.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_cce72.dir/CheckSymbolExists.c.o -o cmTC_cce72 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <stdint.h>
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef INT64_MIN
+  return ((int*)(&INT64_MIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the UINT32_MAX exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_486fe/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_486fe.dir/build.make CMakeFiles/cmTC_486fe.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_486fe.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_486fe.dir/CheckSymbolExists.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_486fe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_486fe.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_486fe.dir/CheckSymbolExists.c.o -o cmTC_486fe 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <stdint.h>
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef UINT32_MAX
+  return ((int*)(&UINT32_MAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the UINT64_MAX exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18f5a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18f5a.dir/build.make CMakeFiles/cmTC_18f5a.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18f5a.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_18f5a.dir/CheckSymbolExists.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_18f5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18f5a.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_18f5a.dir/CheckSymbolExists.c.o -o cmTC_18f5a 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <stdint.h>
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef UINT64_MAX
+  return ((int*)(&UINT64_MAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the SIZE_MAX exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b0296/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b0296.dir/build.make CMakeFiles/cmTC_b0296.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0296.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_b0296.dir/CheckSymbolExists.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b0296
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0296.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_b0296.dir/CheckSymbolExists.c.o -o cmTC_b0296 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+#include <stdint.h>
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIZE_MAX
+  return ((int*)(&SIZE_MAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the SSIZE_MAX exist passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33d54/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_33d54.dir/build.make CMakeFiles/cmTC_33d54.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33d54.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_33d54.dir/CheckSymbolExists.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_33d54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33d54.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_33d54.dir/CheckSymbolExists.c.o -o cmTC_33d54 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+File /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <limits.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SSIZE_MAX
+  return ((int*)(&SSIZE_MAX))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04cb0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_04cb0.dir/build.make CMakeFiles/cmTC_04cb0.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04cb0.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_04cb0.dir/CheckIncludeFile.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_04cb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04cb0.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_04cb0.dir/CheckIncludeFile.c.o -o cmTC_04cb0 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5aca8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5aca8.dir/build.make CMakeFiles/cmTC_5aca8.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5aca8.dir/SIZE_OF_SHORT.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_5aca8.dir/SIZE_OF_SHORT.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/SIZE_OF_SHORT.c
+Linking C executable cmTC_5aca8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aca8.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_5aca8.dir/SIZE_OF_SHORT.c.o -o cmTC_5aca8 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_729c0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_729c0.dir/build.make CMakeFiles/cmTC_729c0.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_729c0.dir/SIZE_OF_INT.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_729c0.dir/SIZE_OF_INT.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/SIZE_OF_INT.c
+Linking C executable cmTC_729c0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_729c0.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_729c0.dir/SIZE_OF_INT.c.o -o cmTC_729c0 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2f0e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2f0e.dir/build.make CMakeFiles/cmTC_e2f0e.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2f0e.dir/SIZE_OF_LONG.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_e2f0e.dir/SIZE_OF_LONG.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/SIZE_OF_LONG.c
+Linking C executable cmTC_e2f0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2f0e.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_e2f0e.dir/SIZE_OF_LONG.c.o -o cmTC_e2f0e 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7aa30/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7aa30.dir/build.make CMakeFiles/cmTC_7aa30.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7aa30.dir/SIZE_OF_LONG_LONG.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_7aa30.dir/SIZE_OF_LONG_LONG.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/SIZE_OF_LONG_LONG.c
+Linking C executable cmTC_7aa30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aa30.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_7aa30.dir/SIZE_OF_LONG_LONG.c.o -o cmTC_7aa30 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1917d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1917d.dir/build.make CMakeFiles/cmTC_1917d.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1917d.dir/SIZE_OF_UNSIGNED_SHORT.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_1917d.dir/SIZE_OF_UNSIGNED_SHORT.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/SIZE_OF_UNSIGNED_SHORT.c
+Linking C executable cmTC_1917d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1917d.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_1917d.dir/SIZE_OF_UNSIGNED_SHORT.c.o -o cmTC_1917d 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d0db0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d0db0.dir/build.make CMakeFiles/cmTC_d0db0.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0db0.dir/SIZE_OF_UNSIGNED.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_d0db0.dir/SIZE_OF_UNSIGNED.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/SIZE_OF_UNSIGNED.c
+Linking C executable cmTC_d0db0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0db0.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_d0db0.dir/SIZE_OF_UNSIGNED.c.o -o cmTC_d0db0 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4c590/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4c590.dir/build.make CMakeFiles/cmTC_4c590.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c590.dir/SIZE_OF_UNSIGNED_LONG.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_4c590.dir/SIZE_OF_UNSIGNED_LONG.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/SIZE_OF_UNSIGNED_LONG.c
+Linking C executable cmTC_4c590
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c590.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_4c590.dir/SIZE_OF_UNSIGNED_LONG.c.o -o cmTC_4c590 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f201b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f201b.dir/build.make CMakeFiles/cmTC_f201b.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f201b.dir/SIZE_OF_UNSIGNED_LONG_LONG.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_f201b.dir/SIZE_OF_UNSIGNED_LONG_LONG.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/SIZE_OF_UNSIGNED_LONG_LONG.c
+Linking C executable cmTC_f201b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f201b.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_f201b.dir/SIZE_OF_UNSIGNED_LONG_LONG.c.o -o cmTC_f201b 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int16_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cb21c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cb21c.dir/build.make CMakeFiles/cmTC_cb21c.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb21c.dir/INT16_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_cb21c.dir/INT16_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/INT16_T.c
+Linking C executable cmTC_cb21c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb21c.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_cb21c.dir/INT16_T.c.o -o cmTC_cb21c 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_301f9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_301f9.dir/build.make CMakeFiles/cmTC_301f9.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_301f9.dir/INT32_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_301f9.dir/INT32_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/INT32_T.c
+Linking C executable cmTC_301f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_301f9.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_301f9.dir/INT32_T.c.o -o cmTC_301f9 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae379/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ae379.dir/build.make CMakeFiles/cmTC_ae379.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae379.dir/INT64_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_ae379.dir/INT64_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/INT64_T.c
+Linking C executable cmTC_ae379
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae379.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_ae379.dir/INT64_T.c.o -o cmTC_ae379 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of intmax_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1a6f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a6f7.dir/build.make CMakeFiles/cmTC_1a6f7.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a6f7.dir/INTMAX_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_1a6f7.dir/INTMAX_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/INTMAX_T.c
+Linking C executable cmTC_1a6f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a6f7.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_1a6f7.dir/INTMAX_T.c.o -o cmTC_1a6f7 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ac567/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ac567.dir/build.make CMakeFiles/cmTC_ac567.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac567.dir/UINT8_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_ac567.dir/UINT8_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/UINT8_T.c
+Linking C executable cmTC_ac567
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac567.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_ac567.dir/UINT8_T.c.o -o cmTC_ac567 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ab03a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ab03a.dir/build.make CMakeFiles/cmTC_ab03a.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab03a.dir/UINT16_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_ab03a.dir/UINT16_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/UINT16_T.c
+Linking C executable cmTC_ab03a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab03a.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_ab03a.dir/UINT16_T.c.o -o cmTC_ab03a 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_54a59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_54a59.dir/build.make CMakeFiles/cmTC_54a59.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54a59.dir/UINT32_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_54a59.dir/UINT32_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/UINT32_T.c
+Linking C executable cmTC_54a59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54a59.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_54a59.dir/UINT32_T.c.o -o cmTC_54a59 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b279f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b279f.dir/build.make CMakeFiles/cmTC_b279f.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b279f.dir/UINT64_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_b279f.dir/UINT64_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/UINT64_T.c
+Linking C executable cmTC_b279f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b279f.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_b279f.dir/UINT64_T.c.o -o cmTC_b279f 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uintmax_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c5003/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c5003.dir/build.make CMakeFiles/cmTC_c5003.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5003.dir/UINTMAX_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_c5003.dir/UINTMAX_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/UINTMAX_T.c
+Linking C executable cmTC_c5003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5003.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_c5003.dir/UINTMAX_T.c.o -o cmTC_c5003 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of clock_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e5b36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e5b36.dir/build.make CMakeFiles/cmTC_e5b36.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5b36.dir/CLOCK_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_e5b36.dir/CLOCK_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/CLOCK_T.c
+Linking C executable cmTC_e5b36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5b36.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_e5b36.dir/CLOCK_T.c.o -o cmTC_e5b36 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of clockid_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9308d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9308d.dir/build.make CMakeFiles/cmTC_9308d.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9308d.dir/CLOCKID_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_9308d.dir/CLOCKID_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/CLOCKID_T.c
+Linking C executable cmTC_9308d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9308d.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_9308d.dir/CLOCKID_T.c.o -o cmTC_9308d 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4fa12/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4fa12.dir/build.make CMakeFiles/cmTC_4fa12.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fa12.dir/SIZE_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_4fa12.dir/SIZE_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/SIZE_T.c
+Linking C executable cmTC_4fa12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fa12.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_4fa12.dir/SIZE_T.c.o -o cmTC_4fa12 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ecf75/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ecf75.dir/build.make CMakeFiles/cmTC_ecf75.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecf75.dir/SSIZE_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_ecf75.dir/SSIZE_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/SSIZE_T.c
+Linking C executable cmTC_ecf75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecf75.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_ecf75.dir/SSIZE_T.c.o -o cmTC_ecf75 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_32a10/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_32a10.dir/build.make CMakeFiles/cmTC_32a10.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_32a10.dir/PID_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_32a10.dir/PID_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/PID_T.c
+Linking C executable cmTC_32a10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32a10.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_32a10.dir/PID_T.c.o -o cmTC_32a10 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of timer_t passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8467c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8467c.dir/build.make CMakeFiles/cmTC_8467c.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8467c.dir/TIMER_T.c.o
+/usr/bin/gcc   -fPIE -std=gnu99 -o CMakeFiles/cmTC_8467c.dir/TIMER_T.c.o -c /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CheckTypeSize/TIMER_T.c
+Linking C executable cmTC_8467c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8467c.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_8467c.dir/TIMER_T.c.o -o cmTC_8467c 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function floor exists in the m passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b44b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1b44b.dir/build.make CMakeFiles/cmTC_1b44b.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b44b.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=floor -fPIE -std=gnu99 -o CMakeFiles/cmTC_1b44b.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘floor’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/usr/share/cmake-3.22/Modules/CheckFunctionExists.c:1:1: note: ‘floor’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_1b44b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b44b.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=floor CMakeFiles/cmTC_1b44b.dir/CheckFunctionExists.c.o -o cmTC_1b44b  -lm 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3afac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3afac.dir/build.make CMakeFiles/cmTC_3afac.dir/build
+gmake[1]: Entering directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3afac.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=clock_gettime -fPIE -std=gnu99 -o CMakeFiles/cmTC_3afac.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3afac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3afac.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_3afac.dir/CheckFunctionExists.c.o -o cmTC_3afac  -lrt 
+gmake[1]: Leaving directory '/home/stepanvar/Documents/clean_prog/build/CMakeFiles/CMakeTmp'
+
+
+

@@ -1,6 +1,5 @@
 import os
 from pathlib import Path
-from sqlite3 import apilevel
 import string
 from tracemalloc import start
 from click import echo
@@ -9,8 +8,6 @@ from slack_sdk.errors import SlackApiError
 import slack_sdk
 import logging
 import telegram
-import asyncio
-import threading
 from telegram.ext import filters, ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler
 import json
 logging.basicConfig(level=logging.DEBUG)
