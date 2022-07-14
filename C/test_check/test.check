@@ -1,5 +1,0 @@
-#include "sum.h"
-
-#test sum2test
-	fail_unless(sum(3, 3) == 6, "sum out");
-	
