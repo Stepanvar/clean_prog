@@ -1,9 +1,17 @@
 # Submodules
 */.git*
+#CMAKE
+*/build
+*/CMakeFiles
+*/cmake*
+*/CMake*
+*.cmake
 # Prerequisites
 *.d
+
 #Vim files
 *.swp
+
 # Object files
 *.o
 *.ko
