@@ -1,0 +1,44 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"check/doc/man/man7/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "docs",
+			"destination" : "share/man/man7",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"/home/stepanvar/Documents/clean_prog/build/check/doc/man/man7/libcheck.7"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "check/doc/man/man7",
+		"source" : "check/doc/man/man7"
+	}
+}

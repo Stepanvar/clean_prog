@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/Utest.dir/testchar.c.o -o Utest  ../check/src/libcheck.a ../liblibft.a -lm -lrt 

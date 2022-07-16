@@ -1,0 +1,8 @@
+{
+	"makefile.extensionOutputFolder": "./.vscode",
+	"cmake.configureOnOpen": true,
+	"cmake.sourceDirectory": "${workspaceFolder}/C/libft",
+	"files.associations": {
+		"libft.h": "c"
+	}
+}

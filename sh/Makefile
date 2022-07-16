@@ -1,4 +1,4 @@
-BASENAME	= libft
+BASENAME	= test_check
 TNAME	= unit_$(BASENAME)
 ODIR	= ./bin
 SDIR	= ./src
@@ -35,22 +35,15 @@ $(ODIR)/%.o: $(SDIR)/%.c
 
 .PHONY: check
 check: all $(TNAME)
-$(TNAME): $(TOBJS) $(SRCS)
+$(TNAME): $(TOBJS)
 	@echo
 	@echo "\033[1;42mCreate unit tests\033[0m"
 	mkdir -p $(TDIR)
-	$(CC) $(CFLAGS) -o $(TNAME) $^ $(INCS) -lcheck -lm -lsubunit
+	$(CC) $(CFLAGS) -o $(TNAME) ${SRCS} $^ $(INCS) -lcheck -lm -lsubunit
 	mv $(ODIR)/*.d $(DDIR)/
 
 $(ODIR)/%.o: $(TDIR)/%.c
 	$(CC) $(CFLAGS) -c -o $@ $< $(INCS) -lcheck -lm -lsubunit -MMD
-
-$(TSRCS): ./test.check
-ifeq ($(TSRCS), )
-	touch $(TDIR)/test.c
-else
-	checkmk ./test.check > $(TSRCS)
-endif
 .PHONY: r
 r: all $(NAME)
 $(NAME): $(LIBS) $(OBJS) $(MAINO)

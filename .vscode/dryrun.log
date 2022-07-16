@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/stepanvar/Documents/clean_prog'
+make: Leaving directory '/home/stepanvar/Documents/clean_prog'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
