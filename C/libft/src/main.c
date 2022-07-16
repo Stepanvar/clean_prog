@@ -1,6 +1,10 @@
 #include "libft.h"
-int main()
+#include <stdlib.h>
+#include <stdio.h>
+int main(int argc, char *argv[])
 {
-	ft_print_alphabet();
-	return (0);
+	if (argc == 3)
+		return ft_print_rnd_hyst(ft_atoui(argv[1]), ft_atoui(argv[2]));
+	else
+		return (-1);
 }

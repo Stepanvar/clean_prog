@@ -2,12 +2,13 @@
 	"version": "0.2.0",
 	"configurations": [
 
+
 	{
 		"name": "(gdb) Launch",
 		"type": "cppdbg",
 		"request": "launch",
-		"program": "${fileDirname}/${fileName}.out",
-		"args": [],
+		"program": "${fileDirname}/../${selectedText}.out",
+		"args": ["2", "100"],
 		"stopAtEntry": false,
 		"cwd": "${fileDirname}",
 		"environment": [],
