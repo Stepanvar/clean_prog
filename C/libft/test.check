@@ -1,3 +1,7 @@
 #include "../src/libft.h"
 #test chartest
 	fail_unless(ft_putchar('@') == '@');
+	fail_unless(ft_putchar('#') == '#');
+	fail_unless(ft_putchar(-1) == 255);
+#test alphabettest
+	fail_unless(ft_print_alphabet() == 27);

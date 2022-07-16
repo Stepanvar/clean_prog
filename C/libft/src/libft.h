@@ -10,4 +10,5 @@ int	ft_strlen(const char *str);
 void	ft_itoa(int n);
 int	ft_printf(const char *s, ...);
 unsigned char ft_putchar(unsigned char c);
+int ft_print_alphabet(void);
 #endif
