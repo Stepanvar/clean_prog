@@ -1,5 +1,6 @@
 # Submodules
 */.git*
+*/CPP/google_test_test/googletest
 #CMAKE
 */build
 */CMakeFiles
