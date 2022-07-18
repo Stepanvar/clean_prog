@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 16 21:16:51 2022
+# Make data base, printed on Mon Jul 18 19:35:03 2022
 
 # Variables
 
@@ -57,7 +57,7 @@ VSCODE_CODE_CACHE_PATH = /home/stepanvar/.config/Code/CachedData/b06ae3b2d2dbfe2
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.KESKP1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.93NEP1
 # default
 .LOADED := 
 # default
@@ -89,13 +89,13 @@ MAKEFILE_LIST :=
 # environment
 ZSH = /home/stepanvar/.oh-my-zsh
 # environment
-VSCODE_PID = 11849
+VSCODE_PID = 9402
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/step:@/tmp/.ICE-unix/8373,unix/step:/tmp/.ICE-unix/8373
+SESSION_MANAGER = local/step:@/tmp/.ICE-unix/5386,unix/step:/tmp/.ICE-unix/5386
 # automatic
 *F = $(notdir $*)
 # environment
@@ -135,7 +135,7 @@ LC_MONETARY = ru_RU.UTF-8
 # environment
 LC_TIME = ru_RU.UTF-8
 # environment
-INVOCATION_ID = 0616a0d7503a47e0a0e05406ea6ec72d
+INVOCATION_ID = 5fd399abc66a46b4bd016a299499a27c
 # environment
 USERNAME = stepanvar
 # environment
@@ -165,7 +165,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 8398
+SYSTEMD_EXEC_PID = 5409
 # environment
 DISPLAY = :0
 # environment
@@ -175,11 +175,11 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 8245
+MANAGERPID = 5261
 # environment
 LC_MEASUREMENT = ru_RU.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 11849
+GIO_LAUNCHED_DESKTOP_FILE_PID = 9402
 # environment
 PAGER = less
 # environment
@@ -189,7 +189,7 @@ LC_PAPER = ru_RU.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:32301
+JOURNAL_STREAM = 8:33244
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -286,6 +286,6 @@ make: *** No rule to make target 'all'.  Stop.
 
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Sat Jul 16 21:16:52 2022
+# Finished Make data base on Mon Jul 18 19:35:03 2022
 
  

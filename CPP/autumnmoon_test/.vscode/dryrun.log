@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/stepanvar/Documents/clean_prog/CPP/autumnmoon_test'
+ 
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/stepanvar/Documents/clean_prog/CPP/autumnmoon_test'
+ 
