@@ -1,7 +1,16 @@
 # Submodules
 */.git*
+
 #obsidian
 .obsidian/**
+
+#googletest
+*/googletest
+
+#CMAKE
+*/build/**
+*.cmake
+
 # Prerequisites
 *.d
 

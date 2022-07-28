@@ -1,3 +1,14 @@
 #include "../src/libft.h"
 #test chartest
 	fail_unless(ft_putchar('@') == '@');
+	fail_unless(ft_putchar('#') == '#');
+	fail_unless(ft_putchar(-1) == 255);
+#test alphabettest
+	fail_unless(ft_print_alphabet() == 27);
+#test rndnum
+	fail_unless(ft_gen_rnd_nums(1, 1)[0] == 0);
+	fail_unless(ft_gen_rnd_nums(0, 1) == NULL);
+#test atoui
+	fail_unless(ft_atoui("2") == 2);
+	fail_unless(ft_atoui("246") == 246);
+	fail_unless(ft_atoui("58700") == 58700);

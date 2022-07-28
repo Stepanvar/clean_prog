@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 14 21:33:57 2022
+# Make data base, printed on Sat Jul 16 21:16:51 2022
 
 # Variables
 
@@ -59,7 +57,7 @@ VSCODE_CODE_CACHE_PATH = /home/stepanvar/.config/Code/CachedData/b06ae3b2d2dbfe2
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.T0EFP1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.KESKP1
 # default
 .LOADED := 
 # default
@@ -91,13 +89,13 @@ MAKEFILE_LIST :=
 # environment
 ZSH = /home/stepanvar/.oh-my-zsh
 # environment
-VSCODE_PID = 28893
+VSCODE_PID = 11849
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/step:@/tmp/.ICE-unix/5432,unix/step:/tmp/.ICE-unix/5432
+SESSION_MANAGER = local/step:@/tmp/.ICE-unix/8373,unix/step:/tmp/.ICE-unix/8373
 # automatic
 *F = $(notdir $*)
 # environment
@@ -137,7 +135,7 @@ LC_MONETARY = ru_RU.UTF-8
 # environment
 LC_TIME = ru_RU.UTF-8
 # environment
-INVOCATION_ID = 256fc4fce42649c582ada7c5707d5da3
+INVOCATION_ID = 0616a0d7503a47e0a0e05406ea6ec72d
 # environment
 USERNAME = stepanvar
 # environment
@@ -156,7 +154,6 @@ LS_COLORS =
 LESS = -R
 # environment
 DESKTOP_SESSION = ubuntu
- 
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # 'override' directive
@@ -168,7 +165,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 5451
+SYSTEMD_EXEC_PID = 8398
 # environment
 DISPLAY = :0
 # environment
@@ -178,11 +175,11 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 5308
+MANAGERPID = 8245
 # environment
 LC_MEASUREMENT = ru_RU.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 28893
+GIO_LAUNCHED_DESKTOP_FILE_PID = 11849
 # environment
 PAGER = less
 # environment
@@ -192,7 +189,7 @@ LC_PAPER = ru_RU.UTF-8
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:31711
+JOURNAL_STREAM = 8:32301
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -284,8 +281,11 @@ GNUmakefile:
 # current buf: size = 8162 B / used = 198 B / count = 24 / avg = 8 B
 
 # strcache performance: lookups = 27 / hit rate = 11%
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 # hash-table stats:
 # Load=24/8192=0%, Rehash=0, Collisions=1/27=4%
-# Finished Make data base on Thu Jul 14 21:33:57 2022
+# Finished Make data base on Sat Jul 16 21:16:52 2022
 
  
