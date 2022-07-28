@@ -1,8 +1,7 @@
 {
-	"makefile.extensionOutputFolder": "./.vscode",
-	"cmake.configureOnOpen": true,
-	"cmake.sourceDirectory": "${workspaceFolder}/C/libft",
 	"files.associations": {
 		"libft.h": "c"
-	}
+	},
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false
 }
