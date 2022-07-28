@@ -8,7 +8,7 @@
 */googletest
 
 #CMAKE
-*/build/**
+build/**
 *.cmake
 
 #csh
