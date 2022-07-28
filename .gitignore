@@ -1,9 +1,13 @@
 # Submodules
 */.git*
+#obsidian
+.obsidian/**
 # Prerequisites
 *.d
+
 #Vim files
 *.swp
+
 # Object files
 *.o
 *.ko
