@@ -10,7 +10,7 @@ namespace MineGame
 		{
 			foreach (var item in this)
 			{
-				Console.WriteLine("{0}:", this.IndexOf(item));
+				Console.WriteLine($"{this.IndexOf(item)}:");
 				item.PrintInfo();
 			}
 		}
@@ -42,9 +42,7 @@ namespace MineGame
 		{
 			var card = this[CardIndex];
 			if (card != null)
-			{
 				card.Created();
-			}
 			this.Remove(card);
 			card.Activate(player);
 			ActivatedCards.Add(card);
