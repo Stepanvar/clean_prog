@@ -42,9 +42,7 @@ namespace MineGame
 		{
 			var card = this[CardIndex];
 			if (card != null)
-			{
 				card.Created();
-			}
 			this.Remove(card);
 			card.Activate(player);
 			ActivatedCards.Add(card);
