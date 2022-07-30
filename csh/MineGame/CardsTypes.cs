@@ -14,7 +14,6 @@ namespace MineGame
 		{
 			GoldCapacity = capacity;
 		}
-
 		public void ProduceGold(ref int Balance)
 		{
 			Balance += GoldCapacity;
@@ -27,7 +26,6 @@ namespace MineGame
 		{
 			Damage = damage;
 		}
-
 		public void CauseDamage(CardModel card)
 		{
 			card.HealthChange(Damage);

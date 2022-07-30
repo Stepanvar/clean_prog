@@ -3,16 +3,16 @@
 //TODO: remove ability to execute mine
 namespace MineGame
 {
-   	
-    class MainClass
-    {
-        public static void Main(string[] args)
-        {
+
+	class MainClass
+	{
+		public static void Main(string[] args)
+		{
 			Random rnd = new Random();
-            Console.WriteLine("Try Factory pattern");
+			Console.WriteLine("Try Factory pattern");
 			int PlayerNum = 0;
 			Console.WriteLine("Enter correct Player number:");
-			while (!int.TryParse(Console.ReadLine(), out PlayerNum)) 
+			while (!int.TryParse(Console.ReadLine(), out PlayerNum))
 			{
 				Console.WriteLine("Enter correct Player number:");
 			}

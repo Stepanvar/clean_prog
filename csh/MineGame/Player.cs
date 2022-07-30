@@ -55,7 +55,6 @@ namespace MineGame
 					default:
 						break;
 				}
-
 			}
 		}
 

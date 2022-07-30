@@ -1,10 +1,11 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 
 namespace MineGame
 {
 
-	public class CardList: List<CardModel>
+	public class CardList : List<CardModel>
 	{
 		public void ListAll()
 		{
@@ -24,7 +25,7 @@ namespace MineGame
 
 		}
 	}
-	public class Hand: CardList
+	public class Hand : CardList
 	{
 		public void FillHand()
 		{

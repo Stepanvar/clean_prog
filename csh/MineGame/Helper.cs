@@ -12,7 +12,6 @@ namespace MineGame
 				return CardType.MagicTower;
 			else
 				return CardType.None;
-
 		}
 		public static CardModel GetRndCard()
 		{
