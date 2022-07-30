@@ -3,7 +3,9 @@
 
 #obsidian
 .obsidian/**
-
+#Windows
+.vs/**
+.trash/**
 #googletest
 */googletest
 
