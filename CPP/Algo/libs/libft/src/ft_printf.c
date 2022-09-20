@@ -43,6 +43,16 @@ static	t_fl	ft_putall(char *s, t_fl f, int len)
 	return (f);
 }
 
+/*static int	ft_strlen(char *s)
+{
+	int	i;
+
+	i = 0;
+	while (s[i])
+		i++;
+	return (i);
+}
+*/
 static int	fs(void	*v, t_fl f)
 {
 	//write string with spec
