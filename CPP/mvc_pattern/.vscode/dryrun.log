@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/stepanvar/Documents/clean_prog/CPP/mvc_pattern'
+echo
+echo "\033[1;42mCreate non main obj files\033[0m"
+mkdir -p bin/
+clang++ -c -o bin/mvc_pattern.o src/mvc_pattern.cpp -MMD
+make: Leaving directory '/home/stepanvar/Documents/clean_prog/CPP/mvc_pattern'
+ 
+find: './test': No such file or directory
+
