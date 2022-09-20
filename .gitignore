@@ -132,17 +132,20 @@ App_Data/*.ldf
 #Vim files
 *.swp
 
-# Object files
+# Object files and folders
 *.o
 *.ko
 *.obj
 *.elf
+**/obj/**
 
 #event file
 *.ign
 
-#sensirive information
+#sensitive information
 */.env
+**/.vs/**
+.vs/**
 
 # Linker output
 *.ilk
