@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{66EA2E0D-D395-43FE-A284-D5CE5479260B}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MineGame" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="MineGame" expanded="True">
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="MineGameTest" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+            <Node name="TestFeatures" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Form.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="MineGame" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MineGame PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.MineGameTest FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/stepanvar/Projects/MineGame/MineGame/Player.cs" relfile="MineGame/Player.cs" line="53" column="27" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
