@@ -21,8 +21,10 @@
 #event file
 *.ign
 
-#sensirive information
+#sensitive information
 */.env
+**/.vs/**
+.vs/**
 
 # Linker output
 *.ilk

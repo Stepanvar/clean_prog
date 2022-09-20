@@ -1,0 +1,217 @@
+#include "libft.h"
+#include "unistd.h"
+#include "stdarg.h"
+#include "stdlib.h"
+
+typedef	struct s_fl
+{
+	//struct
+	int	len;
+	int	pre;
+	int	wid;
+	char	func;
+}	t_fl;
+
+static	t_fl	ft_hspec(const char *s, t_fl f)
+{
+	//get width and precision
+	int	i;
+
+	i = 0;
+	while ('0' <= s[i] && s[i] <= '9')
+		f.wid = f.wid * 10 + s[i++] - '0';
+	if (s[i] == '.')
+	{
+		i++;
+		while ('0' <= s[i] && s[i] <= '9')
+			f.pre = f.pre * 10 + s[i++] - '0';
+	}
+	//get func character
+	f.func = s[i];
+	return (f);
+}
+
+static	t_fl	ft_putall(char *s, t_fl f, int len)
+{
+	//print with wid and pre
+	if (!f.pre || len < f.pre || f.func == 'x')
+		f.pre = len;
+	f.wid = f.wid - f.pre;
+	while (f.wid-- > 0)
+		f.len += write(1, " ", 1);
+	f.len += write(1, s, f.pre);
+	return (f);
+}
+
+<<<<<<< HEAD:CPP/Algo/libs/libft/src/ft_printf.c
+=======
+/*static int	ft_strlen(char *s)
+{
+	int	i;
+
+	i = 0;
+	while (s[i])
+		i++;
+	return (i);
+}
+*/
+>>>>>>> printf:c/libft/src/ft_printf.c
+static int	fs(void	*v, t_fl f)
+{
+	//write string with spec
+	char	*s;
+	int	i = 0;
+	s = (char *)v;
+	i = ft_strlen(s);
+	f = ft_putall(s, f, i);
+	return (f.len);
+}
+
+static	int	ft_intlen(int	num)
+{
+	int	j;
+
+	j = 0;
+	while (num > 0)
+	{
+		num /= 10;
+		j++;
+	}
+	return (j);
+}
+
+static int	fd(void *v, t_fl f)
+{
+	int	num;
+	char	*s;
+	char	c;
+	int	j;
+<<<<<<< HEAD:CPP/Algo/libs/libft/src/ft_printf.c
+	int	flag;
+
+	num = *(int *)&v;
+	flag = 0;
+	if (num < 0)
+	{
+		if (num == -2147438648)
+		{
+			s = "-2147438648";
+			f = ft_putall(s, f, ft_strlen(s));
+			return (f.len);
+		}
+		num *= -1;
+		flag = 1;
+	}
+	j = ft_intlen(num);
+	if (flag)
+		j++;
+=======
+
+	num = *(int *)&v;
+	j = ft_intlen(num);
+>>>>>>> printf:c/libft/src/ft_printf.c
+	s = (char *)malloc(j * sizeof(char) + 1);
+	s[j] = 0;
+	while (num > 0)
+	{
+		c = num % 10 + 48;
+		num /= 10;
+		s[--j] = c;
+	}
+<<<<<<< HEAD:CPP/Algo/libs/libft/src/ft_printf.c
+	if (flag)
+		s[j] = '-';
+=======
+>>>>>>> printf:c/libft/src/ft_printf.c
+	f = ft_putall(s, f, ft_strlen(s));
+	free(s);
+	s = NULL;
+	return (f.len);
+}
+
+static int	fx(void *v, t_fl f)
+{
+	char	*s;
+	unsigned int	i;
+	char	*base = "0123456789abcdef";
+	char	c;
+	int	j;
+
+	i = *(unsigned int *)&v;
+	j = ft_intlen(i);
+	s = (char *)malloc(j * sizeof(char));
+	while (i > 0)
+	{
+		c = base[i % 16];
+		i /= 16;
+		s[--j] = c;
+	}
+	s += j;
+	f = ft_putall(s, f, ft_strlen(s));
+	s -= j;
+	free(s);
+	s = NULL;
+	return (f.len);
+}
+
+static int	ft_harg(va_list p, const char *s, t_fl f)
+{
+	//find specs via func
+	//send va_arg to certain function
+	int	(*fm[4])(void *, t_fl) = {&fs, &fd, &fx};
+	f = ft_hspec(++s, f);
+	if (f.func == 's')
+		f.len = (*fm[0])(va_arg(p, void *), f);
+	if (f.func == 'd')
+		f.len = (*fm[1])(va_arg(p, void *), f);
+	if (f.func == 'x')
+		f.len = (*fm[2])(va_arg(p, void *), f);
+	return (f.len);
+}
+
+static t_fl	ft_init_f(void)
+{
+	t_fl	f;
+	//init all struct
+	f.len = 0;
+	f.pre = 0;
+	f.wid = 0;
+	f.func = '0';
+	return (f);
+}
+
+static int	ft_find_spec(va_list p, const char *s)
+{
+	//print characters if % send it in harg
+	int	i;
+	t_fl	f;
+
+	i = 0;
+	f = ft_init_f();
+	while (s[i])
+	{
+		//f.len return all len of the read arg
+		if (s[i] == '%')
+		{
+			f.len = ft_harg(p, &(s[i]), f);
+			while ((s[i] != 's' && s[i] != 'd' && s[i] != 'x') && s[i])
+				i++;
+		}
+		else
+			f.len += write(1, &(s[i]), 1);
+		i++;
+	}
+	return (f.len);
+}
+
+int	ft_printf(const char *s, ...)
+{
+	va_list p;
+	int	len;
+
+	len = 0;
+	va_start(p, s);
+	len = ft_find_spec(p, s);
+	va_end(p);
+	return (len);
+}

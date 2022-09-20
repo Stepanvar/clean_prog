@@ -1,0 +1,3 @@
+C:/Users/s.zuev/Documents/clean_prog/CPP/SchoolConverter/out/build/x64-debug/CMakeFiles/SchoolConverter.dir
+C:/Users/s.zuev/Documents/clean_prog/CPP/SchoolConverter/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/s.zuev/Documents/clean_prog/CPP/SchoolConverter/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
