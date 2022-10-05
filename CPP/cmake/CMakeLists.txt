@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
-project(CMAKE)
+project(TEST)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17")
 set(SOURCE_DIR ./src)
 set(SOURCE_EXE src/main.cpp)
 set(SOURCE_LIB src/hello.cpp)
