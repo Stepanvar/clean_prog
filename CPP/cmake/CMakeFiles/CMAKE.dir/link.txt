@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/CMAKE.dir/src/hello.cpp.o -o CMAKE 

@@ -12,7 +12,7 @@
 #CMAKE
 build/**
 *.cmake
-
+CMakeFiles/**
 #csh
 # User-specific files
 *.suo

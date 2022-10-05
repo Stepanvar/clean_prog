@@ -1,0 +1,4 @@
+/home/stepanvar/Documents/clean_prog/CPP/cmake/CMakeFiles/hello.dir
+/home/stepanvar/Documents/clean_prog/CPP/cmake/CMakeFiles/main.dir
+/home/stepanvar/Documents/clean_prog/CPP/cmake/CMakeFiles/edit_cache.dir
+/home/stepanvar/Documents/clean_prog/CPP/cmake/CMakeFiles/rebuild_cache.dir
