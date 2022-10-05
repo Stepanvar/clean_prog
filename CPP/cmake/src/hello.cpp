@@ -1,8 +1,19 @@
+#include "hello.hpp"
 #include <iostream>
 
-int main()
+int hello_all()
 {
 	using namespace std;
-	cout << "Hello, Cmake!" << endl;
+	try
+	{
+		cout << "Hello, World!" << endl;
+		cout << "Hello, Cmake!" << endl;
+		cout << "Hello, Docker!" << endl;
+	}
+	catch(const std::exception& e)
+	{
+		std::cerr << e.what() << '\n';
+		return -1;
+	}
 	return 0;
 }

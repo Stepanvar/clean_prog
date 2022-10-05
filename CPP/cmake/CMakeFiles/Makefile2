@@ -63,7 +63,8 @@ CMAKE_BINARY_DIR = /home/stepanvar/Documents/clean_prog/CPP/cmake
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/CMAKE.dir/all
+all: CMakeFiles/hello.dir/all
+all: CMakeFiles/main.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/CMAKE.dir/clean
+clean: CMakeFiles/hello.dir/clean
+clean: CMakeFiles/main.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/CMAKE.dir
+# Target rules for target CMakeFiles/hello.dir
 
 # All Build rule for target.
-CMakeFiles/CMAKE.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMAKE.dir/build.make CMakeFiles/CMAKE.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMAKE.dir/build.make CMakeFiles/CMAKE.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/cmake/CMakeFiles --progress-num=1,2 "Built target CMAKE"
-.PHONY : CMakeFiles/CMAKE.dir/all
+CMakeFiles/hello.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/cmake/CMakeFiles --progress-num=1,2 "Built target hello"
+.PHONY : CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/CMAKE.dir/rule: cmake_check_build_system
+CMakeFiles/hello.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/cmake/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CMAKE.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hello.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/cmake/CMakeFiles 0
-.PHONY : CMakeFiles/CMAKE.dir/rule
+.PHONY : CMakeFiles/hello.dir/rule
 
 # Convenience name for target.
-CMAKE: CMakeFiles/CMAKE.dir/rule
-.PHONY : CMAKE
+hello: CMakeFiles/hello.dir/rule
+.PHONY : hello
 
 # clean rule for target.
-CMakeFiles/CMAKE.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CMAKE.dir/build.make CMakeFiles/CMAKE.dir/clean
-.PHONY : CMakeFiles/CMAKE.dir/clean
+CMakeFiles/hello.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/clean
+.PHONY : CMakeFiles/hello.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/main.dir
+
+# All Build rule for target.
+CMakeFiles/main.dir/all: CMakeFiles/hello.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/cmake/CMakeFiles --progress-num=3,4 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/cmake/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/cmake/CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
+
+# Convenience name for target.
+main: CMakeFiles/main.dir/rule
+.PHONY : main
+
+# clean rule for target.
+CMakeFiles/main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
