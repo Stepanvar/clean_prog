@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -rdynamic CMakeFiles/gcd.out.dir/src/main.cpp.o -o gcd.out  libgcd.a 
