@@ -54,15 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcd
+CMAKE_SOURCE_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcd
+CMAKE_BINARY_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/lcd.dir/all
 all: CMakeFiles/gcd.dir/all
 all: CMakeFiles/gcd.out.dir/all
 .PHONY : all
@@ -72,9 +73,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/lcd.dir/clean
 clean: CMakeFiles/gcd.dir/clean
 clean: CMakeFiles/gcd.out.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/lcd.dir
+
+# All Build rule for target.
+CMakeFiles/lcd.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcd.dir/build.make CMakeFiles/lcd.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcd.dir/build.make CMakeFiles/lcd.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles --progress-num=5,6 "Built target lcd"
+.PHONY : CMakeFiles/lcd.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/lcd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lcd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles 0
+.PHONY : CMakeFiles/lcd.dir/rule
+
+# Convenience name for target.
+lcd: CMakeFiles/lcd.dir/rule
+.PHONY : lcd
+
+# clean rule for target.
+CMakeFiles/lcd.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcd.dir/build.make CMakeFiles/lcd.dir/clean
+.PHONY : CMakeFiles/lcd.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/gcd.dir
@@ -83,14 +111,14 @@ clean: CMakeFiles/gcd.out.dir/clean
 CMakeFiles/gcd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gcd.dir/build.make CMakeFiles/gcd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gcd.dir/build.make CMakeFiles/gcd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/gcd/CMakeFiles --progress-num=1,2 "Built target gcd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles --progress-num=1,2 "Built target gcd"
 .PHONY : CMakeFiles/gcd.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gcd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcd/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gcd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles 0
 .PHONY : CMakeFiles/gcd.dir/rule
 
 # Convenience name for target.
@@ -106,17 +134,18 @@ CMakeFiles/gcd.dir/clean:
 # Target rules for target CMakeFiles/gcd.out.dir
 
 # All Build rule for target.
+CMakeFiles/gcd.out.dir/all: CMakeFiles/lcd.dir/all
 CMakeFiles/gcd.out.dir/all: CMakeFiles/gcd.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gcd.out.dir/build.make CMakeFiles/gcd.out.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gcd.out.dir/build.make CMakeFiles/gcd.out.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/gcd/CMakeFiles --progress-num=3,4 "Built target gcd.out"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles --progress-num=3,4 "Built target gcd.out"
 .PHONY : CMakeFiles/gcd.out.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gcd.out.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcd/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gcd.out.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles 0
 .PHONY : CMakeFiles/gcd.out.dir/rule
 
 # Convenience name for target.

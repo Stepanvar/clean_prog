@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcd
+CMAKE_SOURCE_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcd
+CMAKE_BINARY_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcd/CMakeFiles /home/stepanvar/Documents/clean_prog/CPP/gcd//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcd/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -115,6 +115,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named lcd
+
+# Build rule for target.
+lcd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lcd
+.PHONY : lcd
+
+# fast build rule for target.
+lcd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcd.dir/build.make CMakeFiles/lcd.dir/build
+.PHONY : lcd/fast
 
 #=============================================================================
 # Target rules for targets named gcd
@@ -166,6 +179,30 @@ src/gcd.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gcd.dir/build.make CMakeFiles/gcd.dir/src/gcd.cpp.s
 .PHONY : src/gcd.cpp.s
 
+src/lcd.o: src/lcd.cpp.o
+.PHONY : src/lcd.o
+
+# target to build an object file
+src/lcd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcd.dir/build.make CMakeFiles/lcd.dir/src/lcd.cpp.o
+.PHONY : src/lcd.cpp.o
+
+src/lcd.i: src/lcd.cpp.i
+.PHONY : src/lcd.i
+
+# target to preprocess a source file
+src/lcd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcd.dir/build.make CMakeFiles/lcd.dir/src/lcd.cpp.i
+.PHONY : src/lcd.cpp.i
+
+src/lcd.s: src/lcd.cpp.s
+.PHONY : src/lcd.s
+
+# target to generate assembly for a file
+src/lcd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lcd.dir/build.make CMakeFiles/lcd.dir/src/lcd.cpp.s
+.PHONY : src/lcd.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -200,9 +237,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... gcd"
 	@echo "... gcd.out"
+	@echo "... lcd"
 	@echo "... src/gcd.o"
 	@echo "... src/gcd.i"
 	@echo "... src/gcd.s"
+	@echo "... src/lcd.o"
+	@echo "... src/lcd.i"
+	@echo "... src/lcd.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

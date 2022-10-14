@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcd
+CMAKE_SOURCE_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcd
+CMAKE_BINARY_DIR = /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gcd.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/gcd.dir/flags.make
 CMakeFiles/gcd.dir/src/gcd.cpp.o: CMakeFiles/gcd.dir/flags.make
 CMakeFiles/gcd.dir/src/gcd.cpp.o: src/gcd.cpp
 CMakeFiles/gcd.dir/src/gcd.cpp.o: CMakeFiles/gcd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/gcd/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gcd.dir/src/gcd.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gcd.dir/src/gcd.cpp.o -MF CMakeFiles/gcd.dir/src/gcd.cpp.o.d -o CMakeFiles/gcd.dir/src/gcd.cpp.o -c /home/stepanvar/Documents/clean_prog/CPP/gcd/src/gcd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gcd.dir/src/gcd.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gcd.dir/src/gcd.cpp.o -MF CMakeFiles/gcd.dir/src/gcd.cpp.o.d -o CMakeFiles/gcd.dir/src/gcd.cpp.o -c /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/src/gcd.cpp
 
 CMakeFiles/gcd.dir/src/gcd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gcd.dir/src/gcd.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanvar/Documents/clean_prog/CPP/gcd/src/gcd.cpp > CMakeFiles/gcd.dir/src/gcd.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/src/gcd.cpp > CMakeFiles/gcd.dir/src/gcd.cpp.i
 
 CMakeFiles/gcd.dir/src/gcd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gcd.dir/src/gcd.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanvar/Documents/clean_prog/CPP/gcd/src/gcd.cpp -o CMakeFiles/gcd.dir/src/gcd.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/src/gcd.cpp -o CMakeFiles/gcd.dir/src/gcd.cpp.s
 
 # Object files for target gcd
 gcd_OBJECTS = \
@@ -93,7 +93,7 @@ gcd_EXTERNAL_OBJECTS =
 libgcd.a: CMakeFiles/gcd.dir/src/gcd.cpp.o
 libgcd.a: CMakeFiles/gcd.dir/build.make
 libgcd.a: CMakeFiles/gcd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/gcd/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgcd.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgcd.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/gcd.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gcd.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/gcd.dir/clean:
 .PHONY : CMakeFiles/gcd.dir/clean
 
 CMakeFiles/gcd.dir/depend:
-	cd /home/stepanvar/Documents/clean_prog/CPP/gcd && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stepanvar/Documents/clean_prog/CPP/gcd /home/stepanvar/Documents/clean_prog/CPP/gcd /home/stepanvar/Documents/clean_prog/CPP/gcd /home/stepanvar/Documents/clean_prog/CPP/gcd /home/stepanvar/Documents/clean_prog/CPP/gcd/CMakeFiles/gcd.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd /home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles/gcd.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gcd.dir/depend
 
