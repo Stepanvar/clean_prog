@@ -1,0 +1,2 @@
+/usr/bin/ar qc libgcd.a CMakeFiles/gcd.dir/src/gcd.cpp.o
+/usr/bin/ranlib libgcd.a

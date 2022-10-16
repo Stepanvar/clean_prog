@@ -1,0 +1,5 @@
+/home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles/lcd.dir
+/home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles/gcd.dir
+/home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles/gcd.out.dir
+/home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles/edit_cache.dir
+/home/stepanvar/Documents/clean_prog/CPP/gcdandlcd/CMakeFiles/rebuild_cache.dir
