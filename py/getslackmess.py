@@ -50,7 +50,7 @@ async def echo(update: telegram.Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def end(update: telegram.Update, context: ContextTypes.DEFAULT_TYPE):
 	await context.bot.send_message(chat_id=update.effective_chat.id, text="Bye!")
-	application.stop()
+	await application.stop()
 	application.shutdown()
 	os._exit(0)
 

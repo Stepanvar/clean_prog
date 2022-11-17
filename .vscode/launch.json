@@ -7,7 +7,7 @@
 		"type": "cppdbg",
 		"request": "launch",
 		"program": "${fileDirname}/../${selectedText}.out",
-		"args": ["2", "100"],
+		"args": ["/bin/ls"],//, "|", "/usr/bin/grep microshell", ";", "cd /home/stepanvar/", ";", "/bin/pwd"],
 		"stopAtEntry": false,
 		"cwd": "${fileDirname}",
 		"environment": [],
