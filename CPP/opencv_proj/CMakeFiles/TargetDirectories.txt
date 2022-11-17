@@ -1,0 +1,3 @@
+/data/data/com.termux/files/home/clean_prog/CPP/opencv_proj/CMakeFiles/TESTQ.dir
+/data/data/com.termux/files/home/clean_prog/CPP/opencv_proj/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/clean_prog/CPP/opencv_proj/CMakeFiles/rebuild_cache.dir
