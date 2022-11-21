@@ -1,7 +1,11 @@
 #include <cstddef>
+#include <vector>
 #include <cstdint>
 #include <gtest/gtest.h>
+#include <iomanip>
 #include <iostream>
+#include <string>
+#include <sys/types.h>
 class Var
 {
 public:
@@ -20,7 +24,23 @@ private:
 };
 TEST(CHECK, google)
 {
+	std::cout << "I can overcome it" << std::endl;
 	EXPECT_EQ(0, 0);
+}
+TEST(YAHBOOK, floatcmp)
+{
+	//EXPECT_EQ(0.3, 0.1+0.2);
+	std::cout << "0.1 + 0.2 = " << std::setprecision(17) << 0.1 + 0.2 << std::endl; //0.30000000000000004
+	float delta = 0.0000001f; //you must choose it for each statement
+	float sum = 0.1 + 0.2;
+	std::vector<std::vector<int>> mat(5, std::vector<int>(10));
+	std::vector<char> v(5, 'g');
+	if (std::abs(sum - 0.3) < delta) {
+		EXPECT_EQ(0, 0);
+	}
+	else {
+		EXPECT_EQ(0, 1);
+	}
 }
 TEST(YAHBOOK, constant)
 {
@@ -58,6 +78,13 @@ TEST(YAHBOOK, scope)
 	}
 	std::cout << i << std::endl;//for i deleted
 	//c+= 20; error: not in scope
+}
+TEST(YAHBOOK, russtr)
+{
+	std::string rus = "Привет, Мир!";
+	for (int i = 0; i < rus.size(); i++) {
+		std::cout << static_cast<u_char>(rus[i]) << "\t" << static_cast<int>(rus[i]) << std::endl;
+	}
 }
 TEST(CHECK, crement)
 {

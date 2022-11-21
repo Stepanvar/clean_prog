@@ -1,0 +1,4 @@
+/data/data/com.termux/files/home/clean_prog/CPP/Learn/CMakeFiles/ugtest.dir
+/data/data/com.termux/files/home/clean_prog/CPP/Learn/CMakeFiles/test.dir
+/data/data/com.termux/files/home/clean_prog/CPP/Learn/CMakeFiles/edit_cache.dir
+/data/data/com.termux/files/home/clean_prog/CPP/Learn/CMakeFiles/rebuild_cache.dir
