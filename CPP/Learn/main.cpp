@@ -1,5 +1,2 @@
-int main()
-{
-	std::cout << "Hello, Cmake!" << std::endl;
-	return 0;
-}
+#include <iostream>
+int main(){[](){}();}

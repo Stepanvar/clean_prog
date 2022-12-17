@@ -1,1 +1,1 @@
-/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/ugtest.dir/unittest.cpp.o -o ugtest 
+/data/data/com.termux/files/usr/bin/c++ -O2 -g -DNDEBUG CMakeFiles/ugtest.dir/unittest.cpp.o -o ugtest  -lgtest 

@@ -1,11 +1,8 @@
 #include <cstddef>
-#include <vector>
 #include <cstdint>
+#include <fstream>
 #include <gtest/gtest.h>
-#include <iomanip>
 #include <iostream>
-#include <string>
-#include <sys/types.h>
 class Var
 {
 public:
@@ -14,33 +11,50 @@ public:
 		std::cout << "Obj created" << std::endl;
 		this->x = 42;
 	}
+	Var (int num): x(num) { };
 	virtual ~Var ()
 	{
 		std::cout << "Obj destructor" << std::endl;
 	}
-
+	int GetX() const
+	{
+		return x;
+	}
+	void SetX(int n)
+	{
+		x = n;
+	}
 private:
 	int x;
 };
+Var operator+=(Var x, Var y)
+{
+	x.SetX(y.GetX() + x.GetX());
+	return x;
+}
+std::ostream& operator<<(std::ostream& os, const Var& x)
+{
+	std::cout << x.GetX();
+	return os;
+}
 TEST(CHECK, google)
 {
-	std::cout << "I can overcome it" << std::endl;
 	EXPECT_EQ(0, 0);
 }
-TEST(YAHBOOK, floatcmp)
+template<typename T>
+T sum(T a, T b)
 {
-	//EXPECT_EQ(0.3, 0.1+0.2);
-	std::cout << "0.1 + 0.2 = " << std::setprecision(17) << 0.1 + 0.2 << std::endl; //0.30000000000000004
-	float delta = 0.0000001f; //you must choose it for each statement
-	float sum = 0.1 + 0.2;
-	std::vector<std::vector<int>> mat(5, std::vector<int>(10));
-	std::vector<char> v(5, 'g');
-	if (std::abs(sum - 0.3) < delta) {
-		EXPECT_EQ(0, 0);
-	}
-	else {
-		EXPECT_EQ(0, 1);
-	}
+	return a+=b;
+}
+TEST(CHECK, returned)
+{
+	int x=5, y=7;
+	int s = sum(x, y);
+	std::cout << "Sum is " << s << std::endl;
+	Var v1, v2(10);
+	std::cout << v1 << " " << v2 << std::endl;
+	Var vs = sum(v1, v2);
+	std::cout << "Sum is " << vs << std::endl;
 }
 TEST(YAHBOOK, constant)
 {
@@ -78,13 +92,6 @@ TEST(YAHBOOK, scope)
 	}
 	std::cout << i << std::endl;//for i deleted
 	//c+= 20; error: not in scope
-}
-TEST(YAHBOOK, russtr)
-{
-	std::string rus = "Привет, Мир!";
-	for (int i = 0; i < rus.size(); i++) {
-		std::cout << static_cast<u_char>(rus[i]) << "\t" << static_cast<int>(rus[i]) << std::endl;
-	}
 }
 TEST(CHECK, crement)
 {

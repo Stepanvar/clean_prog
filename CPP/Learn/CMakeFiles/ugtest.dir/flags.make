@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -O2 -g -DNDEBUG -Wall -Werror
+CXX_FLAGS = -O2 -g -DNDEBUG -Wall -Wextra
 
